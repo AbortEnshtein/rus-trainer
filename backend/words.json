@@ -1,0 +1,6101 @@
+{
+  "words": [
+    {
+      "id": 0,
+      "display_word": "замоч_к",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "замочек",
+      "has_no_letter": false
+    },
+    {
+      "id": 1,
+      "display_word": "ключ_к",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "ы",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "ключик",
+      "has_no_letter": false
+    },
+    {
+      "id": 2,
+      "display_word": "стол_к",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "о",
+        "а",
+        "ы"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "столик",
+      "has_no_letter": false
+    },
+    {
+      "id": 3,
+      "display_word": "пальч_к",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "и",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "пальчик",
+      "has_no_letter": false
+    },
+    {
+      "id": 4,
+      "display_word": "вкладч_к",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "о",
+        "а",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "вкладчик",
+      "has_no_letter": false
+    },
+    {
+      "id": 5,
+      "display_word": "барабанщ_к",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "о",
+        "и",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "барабанщик",
+      "has_no_letter": false
+    },
+    {
+      "id": 6,
+      "display_word": "перевоз_ик",
+      "correct_letter": "ч",
+      "pair_letter": "щ",
+      "options": [
+        "т",
+        "ч",
+        "щ",
+        "к"
+      ],
+      "explanation": null,
+      "rule": "Суффиксы -ек-/-ик- (проверка: родительный падеж)",
+      "base_word": "перевозчик",
+      "has_no_letter": false
+    },
+    {
+      "id": 7,
+      "display_word": "разнос_ик",
+      "correct_letter": "ч",
+      "pair_letter": "щ",
+      "options": [
+        "щ",
+        "т",
+        "к",
+        "ч"
+      ],
+      "explanation": null,
+      "rule": "Суффиксы -ек-/-ик- (проверка: родительный падеж)",
+      "base_word": "разносчик",
+      "has_no_letter": false
+    },
+    {
+      "id": 8,
+      "display_word": "бан_щик",
+      "correct_letter": "",
+      "pair_letter": "",
+      "options": [
+        "нет буквы"
+      ],
+      "explanation": null,
+      "rule": "Суффиксы -чик-/-щик- (после д/т/з/с/ж -чик)",
+      "base_word": "бан?щик",
+      "has_no_letter": true
+    },
+    {
+      "id": 9,
+      "display_word": "фонарщ_к",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "и",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "фонарщик",
+      "has_no_letter": false
+    },
+    {
+      "id": 10,
+      "display_word": "рассказ_ик",
+      "correct_letter": "ч",
+      "pair_letter": "щ",
+      "options": [
+        "к",
+        "щ",
+        "т",
+        "ч"
+      ],
+      "explanation": "человек",
+      "rule": "Суффиксы -ек-/-ик- (проверка: родительный падеж)",
+      "base_word": "рассказчик",
+      "has_no_letter": false
+    },
+    {
+      "id": 11,
+      "display_word": "дрессиров_ик",
+      "correct_letter": "щ",
+      "pair_letter": "ч",
+      "options": [
+        "щ",
+        "ч",
+        "к",
+        "т"
+      ],
+      "explanation": "название профессии",
+      "rule": "Суффиксы -ек-/-ик- (проверка: родительный падеж)",
+      "base_word": "дрессировщик",
+      "has_no_letter": false
+    },
+    {
+      "id": 12,
+      "display_word": "красав_ц",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "красавец",
+      "has_no_letter": false
+    },
+    {
+      "id": 13,
+      "display_word": "красав_ца",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "о",
+        "ы",
+        "а",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "красавица",
+      "has_no_letter": false
+    },
+    {
+      "id": 14,
+      "display_word": "жемчуж_нка",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "а",
+        "ы",
+        "и",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "жемчужинка",
+      "has_no_letter": false
+    },
+    {
+      "id": 15,
+      "display_word": "пес_нка",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "песенка",
+      "has_no_letter": false
+    },
+    {
+      "id": 16,
+      "display_word": "лис_нька",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "е",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Суффиксы -еньк-/-оньк-",
+      "base_word": "лисонька",
+      "has_no_letter": false
+    },
+    {
+      "id": 17,
+      "display_word": "туч_нька",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Суффиксы -еньк-/-оньк-",
+      "base_word": "тученька",
+      "has_no_letter": false
+    },
+    {
+      "id": 18,
+      "display_word": "Зо_нька",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Суффиксы -еньк-/-оньк-",
+      "base_word": "Зоенька",
+      "has_no_letter": false
+    },
+    {
+      "id": 19,
+      "display_word": "ба_ньки",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "а",
+        "и",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Суффиксы -еньк-/-оньк-",
+      "base_word": "баиньки",
+      "has_no_letter": false
+    },
+    {
+      "id": 20,
+      "display_word": "за_нька",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "о",
+        "и",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Суффиксы -еньк-/-оньк-",
+      "base_word": "заинька",
+      "has_no_letter": false
+    },
+    {
+      "id": 21,
+      "display_word": "па_нька",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "и",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Суффиксы -еньк-/-оньк-",
+      "base_word": "паинька",
+      "has_no_letter": false
+    },
+    {
+      "id": 22,
+      "display_word": "больш_нство",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "о",
+        "ы",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "большинство",
+      "has_no_letter": false
+    },
+    {
+      "id": 23,
+      "display_word": "меньш_нство",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "а",
+        "ы",
+        "о",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "меньшинство",
+      "has_no_letter": false
+    },
+    {
+      "id": 24,
+      "display_word": "перв_нство",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "первенство",
+      "has_no_letter": false
+    },
+    {
+      "id": 25,
+      "display_word": "тиш_на",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "ы",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "тишина",
+      "has_no_letter": false
+    },
+    {
+      "id": 26,
+      "display_word": "бел_зна",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "и",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "белизна",
+      "has_no_letter": false
+    },
+    {
+      "id": 27,
+      "display_word": "желт_зна",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "о",
+        "и",
+        "а",
+        "ы"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "желтизна",
+      "has_no_letter": false
+    },
+    {
+      "id": 28,
+      "display_word": "нов_зна",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "о",
+        "а",
+        "ы",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "новизна",
+      "has_no_letter": false
+    },
+    {
+      "id": 29,
+      "display_word": "говяд_на",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "и",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "говядина",
+      "has_no_letter": false
+    },
+    {
+      "id": 30,
+      "display_word": "сед_на",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "о",
+        "ы",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "седина",
+      "has_no_letter": false
+    },
+    {
+      "id": 31,
+      "display_word": "тиш_на",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "и",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "тишина",
+      "has_no_letter": false
+    },
+    {
+      "id": 32,
+      "display_word": "выш_на",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "ы",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "вышина",
+      "has_no_letter": false
+    },
+    {
+      "id": 33,
+      "display_word": "переклад_на",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "а",
+        "ы",
+        "о",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "перекладина",
+      "has_no_letter": false
+    },
+    {
+      "id": 34,
+      "display_word": "праздн_ство",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "празднество",
+      "has_no_letter": false
+    },
+    {
+      "id": 35,
+      "display_word": "человеч_ство",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "человечество",
+      "has_no_letter": false
+    },
+    {
+      "id": 36,
+      "display_word": "творч_ство",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "творчество",
+      "has_no_letter": false
+    },
+    {
+      "id": 37,
+      "display_word": "студенч_ство",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "студенчество",
+      "has_no_letter": false
+    },
+    {
+      "id": 38,
+      "display_word": "юнош_ство",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "юношество",
+      "has_no_letter": false
+    },
+    {
+      "id": 39,
+      "display_word": "писат_ль",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "писатель",
+      "has_no_letter": false
+    },
+    {
+      "id": 40,
+      "display_word": "двигат_ль",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "двигатель",
+      "has_no_letter": false
+    },
+    {
+      "id": 41,
+      "display_word": "искат_ль",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "искатель",
+      "has_no_letter": false
+    },
+    {
+      "id": 42,
+      "display_word": "дизайн_р",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "дизайнер",
+      "has_no_letter": false
+    },
+    {
+      "id": 43,
+      "display_word": "трен_р",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "тренер",
+      "has_no_letter": false
+    },
+    {
+      "id": 44,
+      "display_word": "ма_та",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "маета",
+      "has_no_letter": false
+    },
+    {
+      "id": 45,
+      "display_word": "прав_та",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "е",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "правота",
+      "has_no_letter": false
+    },
+    {
+      "id": 46,
+      "display_word": "добр_та",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "е",
+        "и",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "доброта",
+      "has_no_letter": false
+    },
+    {
+      "id": 47,
+      "display_word": "грох_т",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "е",
+        "о",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "грохот",
+      "has_no_letter": false
+    },
+    {
+      "id": 48,
+      "display_word": "нищ_та",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "нищета",
+      "has_no_letter": false
+    },
+    {
+      "id": 49,
+      "display_word": "гор_сть",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "горесть",
+      "has_no_letter": false
+    },
+    {
+      "id": 50,
+      "display_word": "горд_сть",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "е",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "гордость",
+      "has_no_letter": false
+    },
+    {
+      "id": 51,
+      "display_word": "свеж_сть",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "свежесть",
+      "has_no_letter": false
+    },
+    {
+      "id": 52,
+      "display_word": "бедн_сть",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "е",
+        "о",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "бедность",
+      "has_no_letter": false
+    },
+    {
+      "id": 53,
+      "display_word": "котл_вина",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "и",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "котловина",
+      "has_no_letter": false
+    },
+    {
+      "id": 54,
+      "display_word": "сердц_вина",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "сердцевина",
+      "has_no_letter": false
+    },
+    {
+      "id": 55,
+      "display_word": "наставнич_ство",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "наставничество",
+      "has_no_letter": false
+    },
+    {
+      "id": 56,
+      "display_word": "баб_шка",
+      "correct_letter": "у",
+      "pair_letter": "ю",
+      "options": [
+        "у",
+        "ю"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "бабушка",
+      "has_no_letter": false
+    },
+    {
+      "id": 57,
+      "display_word": "Анн_шка",
+      "correct_letter": "у",
+      "pair_letter": "ю",
+      "options": [
+        "ю",
+        "у"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "Аннушка",
+      "has_no_letter": false
+    },
+    {
+      "id": 58,
+      "display_word": "дед_шка",
+      "correct_letter": "у",
+      "pair_letter": "ю",
+      "options": [
+        "ю",
+        "у"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "дедушка",
+      "has_no_letter": false
+    },
+    {
+      "id": 59,
+      "display_word": "Ван_шка",
+      "correct_letter": "ю",
+      "pair_letter": "у",
+      "options": [
+        "у",
+        "ю"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "Ванюшка",
+      "has_no_letter": false
+    },
+    {
+      "id": 60,
+      "display_word": "вол_шка",
+      "correct_letter": "ю",
+      "pair_letter": "у",
+      "options": [
+        "ю",
+        "у"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "волюшка",
+      "has_no_letter": false
+    },
+    {
+      "id": 61,
+      "display_word": "бат_шка",
+      "correct_letter": "ю",
+      "pair_letter": "у",
+      "options": [
+        "ю",
+        "у"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "батюшка",
+      "has_no_letter": false
+    },
+    {
+      "id": 62,
+      "display_word": "солов_шка",
+      "correct_letter": "у",
+      "pair_letter": "ю",
+      "options": [
+        "у",
+        "ю"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "соловушка",
+      "has_no_letter": false
+    },
+    {
+      "id": 63,
+      "display_word": "пер_шко",
+      "correct_letter": "ы",
+      "pair_letter": "и",
+      "options": [
+        "и",
+        "ы"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "перышко",
+      "has_no_letter": false
+    },
+    {
+      "id": 64,
+      "display_word": "солн_шко",
+      "correct_letter": "ы",
+      "pair_letter": "и",
+      "options": [
+        "и",
+        "ы"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "солнышко",
+      "has_no_letter": false
+    },
+    {
+      "id": 65,
+      "display_word": "стекл_шко",
+      "correct_letter": "ы",
+      "pair_letter": "и",
+      "options": [
+        "ы",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "стеклышко",
+      "has_no_letter": false
+    },
+    {
+      "id": 66,
+      "display_word": "гнезд_шко",
+      "correct_letter": "ы",
+      "pair_letter": "и",
+      "options": [
+        "ы",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "гнездышко",
+      "has_no_letter": false
+    },
+    {
+      "id": 67,
+      "display_word": "кол_шек",
+      "correct_letter": "ы",
+      "pair_letter": "и",
+      "options": [
+        "и",
+        "ы"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "колышек",
+      "has_no_letter": false
+    },
+    {
+      "id": 68,
+      "display_word": "кра_шек",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "краешек",
+      "has_no_letter": false
+    },
+    {
+      "id": 69,
+      "display_word": "гор_шко",
+      "correct_letter": "ю",
+      "pair_letter": "у",
+      "options": [
+        "у",
+        "ю"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "горюшко",
+      "has_no_letter": false
+    },
+    {
+      "id": 70,
+      "display_word": "пол_шко",
+      "correct_letter": "ю",
+      "pair_letter": "у",
+      "options": [
+        "ю",
+        "у"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "полюшко",
+      "has_no_letter": false
+    },
+    {
+      "id": 71,
+      "display_word": "мор_шко",
+      "correct_letter": "ю",
+      "pair_letter": "у",
+      "options": [
+        "ю",
+        "у"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "морюшко",
+      "has_no_letter": false
+    },
+    {
+      "id": 72,
+      "display_word": "фанфарон_шка",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "а",
+        "о",
+        "ы"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "фанфаронишка",
+      "has_no_letter": false
+    },
+    {
+      "id": 73,
+      "display_word": "сара_шко",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "ы",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "сараишко",
+      "has_no_letter": false
+    },
+    {
+      "id": 74,
+      "display_word": "сараишк_",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "и",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Наречия (О/А на конце: с приставками из-/до-/с- пишем А)",
+      "base_word": "сараишко",
+      "has_no_letter": false
+    },
+    {
+      "id": 75,
+      "display_word": "плать_шко",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "а",
+        "и",
+        "о",
+        "ы"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "платьишко",
+      "has_no_letter": false
+    },
+    {
+      "id": 76,
+      "display_word": "платьишк_",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "е",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Наречия (О/А на конце: с приставками из-/до-/с- пишем А)",
+      "base_word": "платьишко",
+      "has_no_letter": false
+    },
+    {
+      "id": 77,
+      "display_word": "имень_шко",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "а",
+        "ы",
+        "и",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "именьишко",
+      "has_no_letter": false
+    },
+    {
+      "id": 78,
+      "display_word": "именьишк_",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "и",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Наречия (О/А на конце: с приставками из-/до-/с- пишем А)",
+      "base_word": "именьишко",
+      "has_no_letter": false
+    },
+    {
+      "id": 79,
+      "display_word": "шинел_шка",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "а",
+        "и",
+        "ы",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "шинелишка",
+      "has_no_letter": false
+    },
+    {
+      "id": 80,
+      "display_word": "киргиз_кий",
+      "correct_letter": "с",
+      "pair_letter": "з",
+      "options": [
+        "з",
+        "с"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "киргизский",
+      "has_no_letter": false
+    },
+    {
+      "id": 81,
+      "display_word": "француз_кий",
+      "correct_letter": "с",
+      "pair_letter": "з",
+      "options": [
+        "з",
+        "с"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "французский",
+      "has_no_letter": false
+    },
+    {
+      "id": 82,
+      "display_word": "рез_кий",
+      "correct_letter": "",
+      "pair_letter": "",
+      "options": [
+        "нет буквы"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "рез?кий",
+      "has_no_letter": true
+    },
+    {
+      "id": 83,
+      "display_word": "немец_кий",
+      "correct_letter": "",
+      "pair_letter": "",
+      "options": [
+        "нет буквы"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "немец?кий",
+      "has_no_letter": true
+    },
+    {
+      "id": 84,
+      "display_word": "плос_кий",
+      "correct_letter": "",
+      "pair_letter": "",
+      "options": [
+        "нет буквы"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "плос?кий",
+      "has_no_letter": true
+    },
+    {
+      "id": 85,
+      "display_word": "турец_кий",
+      "correct_letter": "",
+      "pair_letter": "",
+      "options": [
+        "нет буквы"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "турец?кий",
+      "has_no_letter": true
+    },
+    {
+      "id": 86,
+      "display_word": "мерз_кий",
+      "correct_letter": "",
+      "pair_letter": "",
+      "options": [
+        "нет буквы"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "мерз?кий",
+      "has_no_letter": true
+    },
+    {
+      "id": 87,
+      "display_word": "ткац_кий",
+      "correct_letter": "",
+      "pair_letter": "",
+      "options": [
+        "нет буквы"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "ткац?кий",
+      "has_no_letter": true
+    },
+    {
+      "id": 88,
+      "display_word": "узбек_кий",
+      "correct_letter": "с",
+      "pair_letter": "з",
+      "options": [
+        "с",
+        "з"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "узбекский",
+      "has_no_letter": false
+    },
+    {
+      "id": 89,
+      "display_word": "таджик_кий",
+      "correct_letter": "с",
+      "pair_letter": "з",
+      "options": [
+        "с",
+        "з"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "таджикский",
+      "has_no_letter": false
+    },
+    {
+      "id": 90,
+      "display_word": "углич_кий",
+      "correct_letter": "с",
+      "pair_letter": "з",
+      "options": [
+        "с",
+        "з"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "угличский",
+      "has_no_letter": false
+    },
+    {
+      "id": 91,
+      "display_word": "стро_вой",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "строевой",
+      "has_no_letter": false
+    },
+    {
+      "id": 92,
+      "display_word": "милост_вый",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "и",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "милостивый",
+      "has_no_letter": false
+    },
+    {
+      "id": 93,
+      "display_word": "бо_вой",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "боевой",
+      "has_no_letter": false
+    },
+    {
+      "id": 94,
+      "display_word": "сирен_вый",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "сиреневый",
+      "has_no_letter": false
+    },
+    {
+      "id": 95,
+      "display_word": "груз_вой",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "е",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "грузовой",
+      "has_no_letter": false
+    },
+    {
+      "id": 96,
+      "display_word": "дед_в пиджак",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "и",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "дедов пиджак",
+      "has_no_letter": false
+    },
+    {
+      "id": 97,
+      "display_word": "милост_вый",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "о",
+        "и",
+        "ы",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "милостивый",
+      "has_no_letter": false
+    },
+    {
+      "id": 98,
+      "display_word": "юрод_вый",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "а",
+        "о",
+        "и",
+        "ы"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "юродивый",
+      "has_no_letter": false
+    },
+    {
+      "id": 99,
+      "display_word": "масл_ная краска",
+      "correct_letter": "я",
+      "pair_letter": "а",
+      "options": [
+        "я",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "масляная краска",
+      "has_no_letter": false
+    },
+    {
+      "id": 100,
+      "display_word": "масл_ный блин",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "масленый блин",
+      "has_no_letter": false
+    },
+    {
+      "id": 101,
+      "display_word": "досто_н",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "о",
+        "ы",
+        "а",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "достоин",
+      "has_no_letter": false
+    },
+    {
+      "id": 102,
+      "display_word": "полотн_ный",
+      "correct_letter": "я",
+      "pair_letter": "а",
+      "options": [
+        "а",
+        "я"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "полотняный",
+      "has_no_letter": false
+    },
+    {
+      "id": 103,
+      "display_word": "ветр_ный поступок",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "ветреный поступок",
+      "has_no_letter": false
+    },
+    {
+      "id": 104,
+      "display_word": "ветр_ная оспа",
+      "correct_letter": "я",
+      "pair_letter": "а",
+      "options": [
+        "я",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "ветряная оспа",
+      "has_no_letter": false
+    },
+    {
+      "id": 105,
+      "display_word": "мам_н платок",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "а",
+        "о",
+        "ы",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "мамин платок",
+      "has_no_letter": false
+    },
+    {
+      "id": 106,
+      "display_word": "лягу́ш_чий",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "лягу́шечий",
+      "has_no_letter": false
+    },
+    {
+      "id": 107,
+      "display_word": "лягуш_чий",
+      "correct_letter": "а",
+      "pair_letter": "я",
+      "options": [
+        "а",
+        "и",
+        "я",
+        "е"
+      ],
+      "explanation": "под ударением",
+      "rule": "Общее правило правописания",
+      "base_word": "лягушачий",
+      "has_no_letter": false
+    },
+    {
+      "id": 108,
+      "display_word": "стару́ш_чий",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "стару́шечий",
+      "has_no_letter": false
+    },
+    {
+      "id": 109,
+      "display_word": "задумч_вый",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "и",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "задумчивый",
+      "has_no_letter": false
+    },
+    {
+      "id": 110,
+      "display_word": "заботл_вый",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "о",
+        "и",
+        "а",
+        "ы"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "заботливый",
+      "has_no_letter": false
+    },
+    {
+      "id": 111,
+      "display_word": "заносч_вый",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "о",
+        "а",
+        "и",
+        "ы"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "заносчивый",
+      "has_no_letter": false
+    },
+    {
+      "id": 112,
+      "display_word": "глин_стый",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "а",
+        "ы",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "глинистый",
+      "has_no_letter": false
+    },
+    {
+      "id": 113,
+      "display_word": "узорч_тый",
+      "correct_letter": "а",
+      "pair_letter": "я",
+      "options": [
+        "я",
+        "и",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "узорчатый",
+      "has_no_letter": false
+    },
+    {
+      "id": 114,
+      "display_word": "издавн_",
+      "correct_letter": "а",
+      "pair_letter": "я",
+      "options": [
+        "а",
+        "и",
+        "я",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Наречия (О/А на конце: с приставками из-/до-/с- пишем А)",
+      "base_word": "издавна",
+      "has_no_letter": false
+    },
+    {
+      "id": 115,
+      "display_word": "влев_",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "и",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Наречия (О/А на конце: с приставками из-/до-/с- пишем А)",
+      "base_word": "влево",
+      "has_no_letter": false
+    },
+    {
+      "id": 116,
+      "display_word": "дословн_",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "и",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Наречия (О/А на конце: с приставками из-/до-/с- пишем А)",
+      "base_word": "дословно",
+      "has_no_letter": false
+    },
+    {
+      "id": 117,
+      "display_word": "изредк_",
+      "correct_letter": "а",
+      "pair_letter": "я",
+      "options": [
+        "я",
+        "е",
+        "а",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Наречия (О/А на конце: с приставками из-/до-/с- пишем А)",
+      "base_word": "изредка",
+      "has_no_letter": false
+    },
+    {
+      "id": 118,
+      "display_word": "добел_",
+      "correct_letter": "а",
+      "pair_letter": "я",
+      "options": [
+        "а",
+        "я",
+        "е",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Наречия (О/А на конце: с приставками из-/до-/с- пишем А)",
+      "base_word": "добела",
+      "has_no_letter": false
+    },
+    {
+      "id": 119,
+      "display_word": "снов_",
+      "correct_letter": "а",
+      "pair_letter": "я",
+      "options": [
+        "я",
+        "а",
+        "е",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Наречия (О/А на конце: с приставками из-/до-/с- пишем А)",
+      "base_word": "снова",
+      "has_no_letter": false
+    },
+    {
+      "id": 120,
+      "display_word": "вправ_",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "е",
+        "и",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Наречия (О/А на конце: с приставками из-/до-/с- пишем А)",
+      "base_word": "вправо",
+      "has_no_letter": false
+    },
+    {
+      "id": 121,
+      "display_word": "занов_",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "е",
+        "и",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Наречия (О/А на конце: с приставками из-/до-/с- пишем А)",
+      "base_word": "заново",
+      "has_no_letter": false
+    },
+    {
+      "id": 122,
+      "display_word": "наглух_",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "е",
+        "о",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Наречия (О/А на конце: с приставками из-/до-/с- пишем А)",
+      "base_word": "наглухо",
+      "has_no_letter": false
+    },
+    {
+      "id": 123,
+      "display_word": "движ_к",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "и",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "движок",
+      "has_no_letter": false
+    },
+    {
+      "id": 124,
+      "display_word": "медвеж_нок",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "и",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "медвежонок",
+      "has_no_letter": false
+    },
+    {
+      "id": 125,
+      "display_word": "уж_ныш",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "и",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "ужоныш",
+      "has_no_letter": false
+    },
+    {
+      "id": 126,
+      "display_word": "трущ_ба",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "е",
+        "о",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "трущоба",
+      "has_no_letter": false
+    },
+    {
+      "id": 127,
+      "display_word": "понож_вщина",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "и",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "поножовщина",
+      "has_no_letter": false
+    },
+    {
+      "id": 128,
+      "display_word": "трещ_тка",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "е",
+        "о",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "трещотка",
+      "has_no_letter": false
+    },
+    {
+      "id": 129,
+      "display_word": "нович_к",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "е",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "новичок",
+      "has_no_letter": false
+    },
+    {
+      "id": 130,
+      "display_word": "реч_нка",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "и",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "речонка",
+      "has_no_letter": false
+    },
+    {
+      "id": 131,
+      "display_word": "ситц_вый",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "ситцевый",
+      "has_no_letter": false
+    },
+    {
+      "id": 132,
+      "display_word": "лиш_н",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "лишен",
+      "has_no_letter": false
+    },
+    {
+      "id": 133,
+      "display_word": "плащ_вка",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "е",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "плащовка",
+      "has_no_letter": false
+    },
+    {
+      "id": 134,
+      "display_word": "груш_вка",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "и",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "грушовка",
+      "has_no_letter": false
+    },
+    {
+      "id": 135,
+      "display_word": "Ильич_в",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "е",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "Ильичов",
+      "has_no_letter": false
+    },
+    {
+      "id": 136,
+      "display_word": "хорош_",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "е",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Наречия (О/А на конце: с приставками из-/до-/с- пишем А)",
+      "base_word": "хорошо",
+      "has_no_letter": false
+    },
+    {
+      "id": 137,
+      "display_word": "нагиш_м",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "е",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "нагишом",
+      "has_no_letter": false
+    },
+    {
+      "id": 138,
+      "display_word": "общ_",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "е",
+        "и",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Наречия (О/А на конце: с приставками из-/до-/с- пишем А)",
+      "base_word": "общо",
+      "has_no_letter": false
+    },
+    {
+      "id": 139,
+      "display_word": "уч_ба",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "учеба",
+      "has_no_letter": false
+    },
+    {
+      "id": 140,
+      "display_word": "ещ_",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "еще",
+      "has_no_letter": false
+    },
+    {
+      "id": 141,
+      "display_word": "дириж_р",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "дирижер",
+      "has_no_letter": false
+    },
+    {
+      "id": 142,
+      "display_word": "парч_вый сарафан",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "и",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "парчовый сарафан",
+      "has_no_letter": false
+    },
+    {
+      "id": 143,
+      "display_word": "кумач_вая рубаха",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "е",
+        "о",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "кумачовая рубаха",
+      "has_no_letter": false
+    },
+    {
+      "id": 144,
+      "display_word": "чесуч_вый пиджак",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "е",
+        "и",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "чесучовый пиджак",
+      "has_no_letter": false
+    },
+    {
+      "id": 145,
+      "display_word": "песц_вый воротник",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "и",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "песцовый воротник",
+      "has_no_letter": false
+    },
+    {
+      "id": 146,
+      "display_word": "холщ_вая сумка",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "и",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "холщовая сумка",
+      "has_no_letter": false
+    },
+    {
+      "id": 147,
+      "display_word": "сургуч_вая печать",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "и",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "сургучовая печать",
+      "has_no_letter": false
+    },
+    {
+      "id": 148,
+      "display_word": "изразц_вая печь",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "е",
+        "о",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "изразцовая печь",
+      "has_no_letter": false
+    },
+    {
+      "id": 149,
+      "display_word": "ситц_вая ткань",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "ситцевая ткань",
+      "has_no_letter": false
+    },
+    {
+      "id": 150,
+      "display_word": "гуттаперч_вая трубка",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "гуттаперчевая трубка",
+      "has_no_letter": false
+    },
+    {
+      "id": 151,
+      "display_word": "кварц_вые часы",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "кварцевые часы",
+      "has_no_letter": false
+    },
+    {
+      "id": 152,
+      "display_word": "клоун был смеш_н",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "и",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "клоун был смешон",
+      "has_no_letter": false
+    },
+    {
+      "id": 153,
+      "display_word": "размеж_вывать",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "размежевывать",
+      "has_no_letter": false
+    },
+    {
+      "id": 154,
+      "display_word": "выкорч_вывать",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "выкорчевывать",
+      "has_no_letter": false
+    },
+    {
+      "id": 155,
+      "display_word": "сгущ_нный",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Н/НН в причастиях",
+      "base_word": "сгущенный",
+      "has_no_letter": false
+    },
+    {
+      "id": 156,
+      "display_word": "туш_нка",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "тушенка",
+      "has_no_letter": false
+    },
+    {
+      "id": 157,
+      "display_word": "ноч_вка",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "ночевка",
+      "has_no_letter": false
+    },
+    {
+      "id": 158,
+      "display_word": "ухаж_р",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "ухажер",
+      "has_no_letter": false
+    },
+    {
+      "id": 159,
+      "display_word": "тяж_лый",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "тяжелый",
+      "has_no_letter": false
+    },
+    {
+      "id": 160,
+      "display_word": "танц_р",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "е",
+        "и",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "танцор",
+      "has_no_letter": false
+    },
+    {
+      "id": 161,
+      "display_word": "пунц_вый",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "е",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "пунцовый",
+      "has_no_letter": false
+    },
+    {
+      "id": 162,
+      "display_word": "акц_я",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "ы",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "акция",
+      "has_no_letter": false
+    },
+    {
+      "id": 163,
+      "display_word": "организац_я",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "о",
+        "а",
+        "ы",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "организация",
+      "has_no_letter": false
+    },
+    {
+      "id": 164,
+      "display_word": "сбор_ще",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "ы",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "сборище",
+      "has_no_letter": false
+    },
+    {
+      "id": 165,
+      "display_word": "талант_ще",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "и",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "талантище",
+      "has_no_letter": false
+    },
+    {
+      "id": 166,
+      "display_word": "мес_во",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "ы",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "месиво",
+      "has_no_letter": false
+    },
+    {
+      "id": 167,
+      "display_word": "вар_во",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "варево",
+      "has_no_letter": false
+    },
+    {
+      "id": 168,
+      "display_word": "жар_во",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "жарево",
+      "has_no_letter": false
+    },
+    {
+      "id": 169,
+      "display_word": "остров_тяне",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "о",
+        "и",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "островитяне",
+      "has_no_letter": false
+    },
+    {
+      "id": 170,
+      "display_word": "солдатч_на",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "а",
+        "о",
+        "ы"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "солдатчина",
+      "has_no_letter": false
+    },
+    {
+      "id": 171,
+      "display_word": "деревенщ_на",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "а",
+        "и",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "деревенщина",
+      "has_no_letter": false
+    },
+    {
+      "id": 172,
+      "display_word": "сем_ни",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "семени",
+      "has_no_letter": false
+    },
+    {
+      "id": 173,
+      "display_word": "врем_ни",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "времени",
+      "has_no_letter": false
+    },
+    {
+      "id": 174,
+      "display_word": "брем_ни",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "бремени",
+      "has_no_letter": false
+    },
+    {
+      "id": 175,
+      "display_word": "вым_ни",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "вымени",
+      "has_no_letter": false
+    },
+    {
+      "id": 176,
+      "display_word": "стрем_ни",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "стремени",
+      "has_no_letter": false
+    },
+    {
+      "id": 177,
+      "display_word": "плам_ни",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "пламени",
+      "has_no_letter": false
+    },
+    {
+      "id": 178,
+      "display_word": "тем_ни",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "темени",
+      "has_no_letter": false
+    },
+    {
+      "id": 179,
+      "display_word": "знам_ни",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "знамени",
+      "has_no_letter": false
+    },
+    {
+      "id": 180,
+      "display_word": "доверч_вый",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "о",
+        "а",
+        "ы"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "доверчивый",
+      "has_no_letter": false
+    },
+    {
+      "id": 181,
+      "display_word": "фасол_вый",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "фасолевый",
+      "has_no_letter": false
+    },
+    {
+      "id": 182,
+      "display_word": "красн_ватый",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "и",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "красноватый",
+      "has_no_letter": false
+    },
+    {
+      "id": 183,
+      "display_word": "син_ватый",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "синеватый",
+      "has_no_letter": false
+    },
+    {
+      "id": 184,
+      "display_word": "дом_витый",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "и",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "домовитый",
+      "has_no_letter": false
+    },
+    {
+      "id": 185,
+      "display_word": "глянц_витый",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "глянцевитый",
+      "has_no_letter": false
+    },
+    {
+      "id": 186,
+      "display_word": "надрыв_стый",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "о",
+        "ы",
+        "а",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "надрывистый",
+      "has_no_letter": false
+    },
+    {
+      "id": 187,
+      "display_word": "створч_тый",
+      "correct_letter": "а",
+      "pair_letter": "я",
+      "options": [
+        "я",
+        "и",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "створчатый",
+      "has_no_letter": false
+    },
+    {
+      "id": 188,
+      "display_word": "ступенч_тый",
+      "correct_letter": "а",
+      "pair_letter": "я",
+      "options": [
+        "и",
+        "е",
+        "а",
+        "я"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "ступенчатый",
+      "has_no_letter": false
+    },
+    {
+      "id": 189,
+      "display_word": "решетч_тый",
+      "correct_letter": "а",
+      "pair_letter": "я",
+      "options": [
+        "и",
+        "я",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "решетчатый",
+      "has_no_letter": false
+    },
+    {
+      "id": 190,
+      "display_word": "дощ_тый",
+      "correct_letter": "а",
+      "pair_letter": "я",
+      "options": [
+        "е",
+        "я",
+        "а",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "дощатый",
+      "has_no_letter": false
+    },
+    {
+      "id": 191,
+      "display_word": "сух_нький",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "и",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Суффиксы -еньк-/-оньк-",
+      "base_word": "сухонький",
+      "has_no_letter": false
+    },
+    {
+      "id": 192,
+      "display_word": "черн_нький",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Суффиксы -еньк-/-оньк-",
+      "base_word": "черненький",
+      "has_no_letter": false
+    },
+    {
+      "id": 193,
+      "display_word": "краеведч_ский",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "краеведческий",
+      "has_no_letter": false
+    },
+    {
+      "id": 194,
+      "display_word": "враж_ский",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "вражеский",
+      "has_no_letter": false
+    },
+    {
+      "id": 195,
+      "display_word": "трагич_ский",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "трагический",
+      "has_no_letter": false
+    },
+    {
+      "id": 196,
+      "display_word": "листоч_к",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "листочек",
+      "has_no_letter": false
+    },
+    {
+      "id": 197,
+      "display_word": "платоч_к",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "платочек",
+      "has_no_letter": false
+    },
+    {
+      "id": 198,
+      "display_word": "горош_к",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "горошек",
+      "has_no_letter": false
+    },
+    {
+      "id": 199,
+      "display_word": "горош_нка",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "а",
+        "ы",
+        "и",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "горошинка",
+      "has_no_letter": false
+    },
+    {
+      "id": 200,
+      "display_word": "жемчуж_нка",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "а",
+        "о",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "жемчужинка",
+      "has_no_letter": false
+    },
+    {
+      "id": 201,
+      "display_word": "виш_нка",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "вишенка",
+      "has_no_letter": false
+    },
+    {
+      "id": 202,
+      "display_word": "пес_нка",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "песенка",
+      "has_no_letter": false
+    },
+    {
+      "id": 203,
+      "display_word": "сестр_нство",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "о",
+        "а",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "сестринство",
+      "has_no_letter": false
+    },
+    {
+      "id": 204,
+      "display_word": "перв_нство",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "первенство",
+      "has_no_letter": false
+    },
+    {
+      "id": 205,
+      "display_word": "больш_нство",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "ы",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "большинство",
+      "has_no_letter": false
+    },
+    {
+      "id": 206,
+      "display_word": "бо_ц",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "боец",
+      "has_no_letter": false
+    },
+    {
+      "id": 207,
+      "display_word": "пальт_цо",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "пальтецо",
+      "has_no_letter": false
+    },
+    {
+      "id": 208,
+      "display_word": "письм_цо",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "письмецо",
+      "has_no_letter": false
+    },
+    {
+      "id": 209,
+      "display_word": "владел_ца",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "а",
+        "ы",
+        "и",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "владелица",
+      "has_no_letter": false
+    },
+    {
+      "id": 210,
+      "display_word": "плать_це",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "а",
+        "и",
+        "ы",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "платьице",
+      "has_no_letter": false
+    },
+    {
+      "id": 211,
+      "display_word": "кресл_це",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "о",
+        "и",
+        "а",
+        "ы"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "креслице",
+      "has_no_letter": false
+    },
+    {
+      "id": 212,
+      "display_word": "лестн_чка",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "а",
+        "о",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "лестничка",
+      "has_no_letter": false
+    },
+    {
+      "id": 213,
+      "display_word": "пугов_чка",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "а",
+        "ы",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "пуговичка",
+      "has_no_letter": false
+    },
+    {
+      "id": 214,
+      "display_word": "тро_чка",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "троечка",
+      "has_no_letter": false
+    },
+    {
+      "id": 215,
+      "display_word": "Ван_чка",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "Ванечка",
+      "has_no_letter": false
+    },
+    {
+      "id": 216,
+      "display_word": "врем_чко",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "времечко",
+      "has_no_letter": false
+    },
+    {
+      "id": 217,
+      "display_word": "ламп_чка",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "е",
+        "и",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "лампочка",
+      "has_no_letter": false
+    },
+    {
+      "id": 218,
+      "display_word": "мам_чка",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "и",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "мамочка",
+      "has_no_letter": false
+    },
+    {
+      "id": 219,
+      "display_word": "Вов_чка",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "е",
+        "о",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "Вовочка",
+      "has_no_letter": false
+    },
+    {
+      "id": 220,
+      "display_word": "лож_чка",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "ложечка",
+      "has_no_letter": false
+    },
+    {
+      "id": 221,
+      "display_word": "оборуд_вание",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "е",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "оборудование",
+      "has_no_letter": false
+    },
+    {
+      "id": 222,
+      "display_word": "сестр_нский",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "а",
+        "ы",
+        "и",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "сестринский",
+      "has_no_letter": false
+    },
+    {
+      "id": 223,
+      "display_word": "Мари_нский",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "о",
+        "ы",
+        "и",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "Мариинский",
+      "has_no_letter": false
+    },
+    {
+      "id": 224,
+      "display_word": "мытищ_нский",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "о",
+        "а",
+        "ы"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "мытищинский",
+      "has_no_letter": false
+    },
+    {
+      "id": 225,
+      "display_word": "химк_нский",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "о",
+        "и",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "химкинский",
+      "has_no_letter": false
+    },
+    {
+      "id": 226,
+      "display_word": "соч_нский",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "а",
+        "о",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "сочинский",
+      "has_no_letter": false
+    },
+    {
+      "id": 227,
+      "display_word": "ялт_нский",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "о",
+        "а",
+        "ы",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "ялтинский",
+      "has_no_letter": false
+    },
+    {
+      "id": 228,
+      "display_word": "охт_нский",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "а",
+        "о",
+        "ы",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "охтинский",
+      "has_no_letter": false
+    },
+    {
+      "id": 229,
+      "display_word": "балаш_хинский",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "о",
+        "а",
+        "ы"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "балашихинский",
+      "has_no_letter": false
+    },
+    {
+      "id": 230,
+      "display_word": "грозн_нский",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "грозненский",
+      "has_no_letter": false
+    },
+    {
+      "id": 231,
+      "display_word": "городищ_нский",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "городищенский",
+      "has_no_letter": false
+    },
+    {
+      "id": 232,
+      "display_word": "зареч_нский",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "зареченский",
+      "has_no_letter": false
+    },
+    {
+      "id": 233,
+      "display_word": "Фрунз_нский",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "Фрунзенский",
+      "has_no_letter": false
+    },
+    {
+      "id": 234,
+      "display_word": "колом_нский",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "коломенский",
+      "has_no_letter": false
+    },
+    {
+      "id": 235,
+      "display_word": "пенз_нский",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "пензенский",
+      "has_no_letter": false
+    },
+    {
+      "id": 236,
+      "display_word": "пресн_нский",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "пресненский",
+      "has_no_letter": false
+    },
+    {
+      "id": 237,
+      "display_word": "сходн_нский",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "сходненский",
+      "has_no_letter": false
+    },
+    {
+      "id": 238,
+      "display_word": "мальчиш_чий",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "мальчишечий",
+      "has_no_letter": false
+    },
+    {
+      "id": 239,
+      "display_word": "стару́ш_чий",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "стару́шечий",
+      "has_no_letter": false
+    },
+    {
+      "id": 240,
+      "display_word": "лягу́ш_чий",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "лягу́шечий",
+      "has_no_letter": false
+    },
+    {
+      "id": 241,
+      "display_word": "индю́ш_чий",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "индю́шечий",
+      "has_no_letter": false
+    },
+    {
+      "id": 242,
+      "display_word": "бел_чий",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "а",
+        "о",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "беличий",
+      "has_no_letter": false
+    },
+    {
+      "id": 243,
+      "display_word": "за_чий",
+      "correct_letter": "я",
+      "pair_letter": "а",
+      "options": [
+        "а",
+        "я"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "заячий",
+      "has_no_letter": false
+    },
+    {
+      "id": 244,
+      "display_word": "крол_чий",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "о",
+        "ы",
+        "а",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "кроличий",
+      "has_no_letter": false
+    },
+    {
+      "id": 245,
+      "display_word": "ча_чий",
+      "correct_letter": "я",
+      "pair_letter": "а",
+      "options": [
+        "я",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "чаячий",
+      "has_no_letter": false
+    },
+    {
+      "id": 246,
+      "display_word": "лед_ной",
+      "correct_letter": "я",
+      "pair_letter": "а",
+      "options": [
+        "а",
+        "я"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "ледяной",
+      "has_no_letter": false
+    },
+    {
+      "id": 247,
+      "display_word": "кост_ной",
+      "correct_letter": "я",
+      "pair_letter": "а",
+      "options": [
+        "а",
+        "я"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "костяной",
+      "has_no_letter": false
+    },
+    {
+      "id": 248,
+      "display_word": "глин_ный",
+      "correct_letter": "я",
+      "pair_letter": "а",
+      "options": [
+        "а",
+        "я"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "глиняный",
+      "has_no_letter": false
+    },
+    {
+      "id": 249,
+      "display_word": "кож_ный",
+      "correct_letter": "а",
+      "pair_letter": "я",
+      "options": [
+        "а",
+        "я",
+        "и",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "кожаный",
+      "has_no_letter": false
+    },
+    {
+      "id": 250,
+      "display_word": "серебр_ный",
+      "correct_letter": "я",
+      "pair_letter": "а",
+      "options": [
+        "я",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "серебряный",
+      "has_no_letter": false
+    },
+    {
+      "id": 251,
+      "display_word": "букв_нный",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Н/НН в причастиях",
+      "base_word": "буквенный",
+      "has_no_letter": false
+    },
+    {
+      "id": 252,
+      "display_word": "листв_нный",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Н/НН в причастиях",
+      "base_word": "лиственный",
+      "has_no_letter": false
+    },
+    {
+      "id": 253,
+      "display_word": "лекарств_нный",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Н/НН в причастиях",
+      "base_word": "лекарственный",
+      "has_no_letter": false
+    },
+    {
+      "id": 254,
+      "display_word": "мысл_нный",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Н/НН в причастиях",
+      "base_word": "мысленный",
+      "has_no_letter": false
+    },
+    {
+      "id": 255,
+      "display_word": "безветр_нный",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Н/НН в причастиях",
+      "base_word": "безветренный",
+      "has_no_letter": false
+    },
+    {
+      "id": 256,
+      "display_word": "врем_нной",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Н/НН в причастиях",
+      "base_word": "временной",
+      "has_no_letter": false
+    },
+    {
+      "id": 257,
+      "display_word": "плем_нной",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Н/НН в причастиях",
+      "base_word": "племенной",
+      "has_no_letter": false
+    },
+    {
+      "id": 258,
+      "display_word": "сем_нной",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Н/НН в причастиях",
+      "base_word": "семенной",
+      "has_no_letter": false
+    },
+    {
+      "id": 259,
+      "display_word": "обид_ть",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "обидеть",
+      "has_no_letter": false
+    },
+    {
+      "id": 260,
+      "display_word": "вид_ть",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "видеть",
+      "has_no_letter": false
+    },
+    {
+      "id": 261,
+      "display_word": "ненавид_ть",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "ненавидеть",
+      "has_no_letter": false
+    },
+    {
+      "id": 262,
+      "display_word": "завис_ть",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "зависеть",
+      "has_no_letter": false
+    },
+    {
+      "id": 263,
+      "display_word": "зачервив_ть",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "зачервиветь",
+      "has_no_letter": false
+    },
+    {
+      "id": 264,
+      "display_word": "опостыл_ть",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "опостылеть",
+      "has_no_letter": false
+    },
+    {
+      "id": 265,
+      "display_word": "опротив_ть",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "опротиветь",
+      "has_no_letter": false
+    },
+    {
+      "id": 266,
+      "display_word": "посерьёзн_ть",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "посерьёзнеть",
+      "has_no_letter": false
+    },
+    {
+      "id": 267,
+      "display_word": "обессил_ть",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "о",
+        "е"
+      ],
+      "explanation": "самому",
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "обессилеть",
+      "has_no_letter": false
+    },
+    {
+      "id": 268,
+      "display_word": "обездуш_ть",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": "самому",
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "обездушеть",
+      "has_no_letter": false
+    },
+    {
+      "id": 269,
+      "display_word": "посуров_ть",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "посуроветь",
+      "has_no_letter": false
+    },
+    {
+      "id": 270,
+      "display_word": "обессил_ть врага",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "о",
+        "а",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "обессилить врага",
+      "has_no_letter": false
+    },
+    {
+      "id": 271,
+      "display_word": "обезбол_ть",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "а",
+        "о",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "обезболить",
+      "has_no_letter": false
+    },
+    {
+      "id": 272,
+      "display_word": "обезвред_ть",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "ы",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "обезвредить",
+      "has_no_letter": false
+    },
+    {
+      "id": 273,
+      "display_word": "обездуш_ть человека",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "о",
+        "а",
+        "и",
+        "ы"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "обездушить человека",
+      "has_no_letter": false
+    },
+    {
+      "id": 274,
+      "display_word": "ослаб_ть хватку",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "о",
+        "ы",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "ослабить хватку",
+      "has_no_letter": false
+    },
+    {
+      "id": 275,
+      "display_word": "слуш_ть",
+      "correct_letter": "а",
+      "pair_letter": "я",
+      "options": [
+        "и",
+        "а",
+        "е",
+        "я"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "слушать",
+      "has_no_letter": false
+    },
+    {
+      "id": 276,
+      "display_word": "клац_ть",
+      "correct_letter": "а",
+      "pair_letter": "я",
+      "options": [
+        "е",
+        "и",
+        "а",
+        "я"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "клацать",
+      "has_no_letter": false
+    },
+    {
+      "id": 277,
+      "display_word": "важнич_ть",
+      "correct_letter": "а",
+      "pair_letter": "я",
+      "options": [
+        "е",
+        "и",
+        "а",
+        "я"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "важничать",
+      "has_no_letter": false
+    },
+    {
+      "id": 278,
+      "display_word": "ла_ть",
+      "correct_letter": "я",
+      "pair_letter": "а",
+      "options": [
+        "я",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "лаять",
+      "has_no_letter": false
+    },
+    {
+      "id": 279,
+      "display_word": "та_ть на глазах",
+      "correct_letter": "я",
+      "pair_letter": "а",
+      "options": [
+        "а",
+        "я"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "таять на глазах",
+      "has_no_letter": false
+    },
+    {
+      "id": 280,
+      "display_word": "ка_ться",
+      "correct_letter": "я",
+      "pair_letter": "а",
+      "options": [
+        "я",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "каяться",
+      "has_no_letter": false
+    },
+    {
+      "id": 281,
+      "display_word": "ве_ть",
+      "correct_letter": "я",
+      "pair_letter": "а",
+      "options": [
+        "я",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "веять",
+      "has_no_letter": false
+    },
+    {
+      "id": 282,
+      "display_word": "наде_ться",
+      "correct_letter": "я",
+      "pair_letter": "а",
+      "options": [
+        "а",
+        "я"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "надеяться",
+      "has_no_letter": false
+    },
+    {
+      "id": 283,
+      "display_word": "леле_ть",
+      "correct_letter": "я",
+      "pair_letter": "а",
+      "options": [
+        "я",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "лелеять",
+      "has_no_letter": false
+    },
+    {
+      "id": 284,
+      "display_word": "се_ть",
+      "correct_letter": "я",
+      "pair_letter": "а",
+      "options": [
+        "я",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "сеять",
+      "has_no_letter": false
+    },
+    {
+      "id": 285,
+      "display_word": "зате_ть",
+      "correct_letter": "я",
+      "pair_letter": "а",
+      "options": [
+        "я",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "затеять",
+      "has_no_letter": false
+    },
+    {
+      "id": 286,
+      "display_word": "чу_ть",
+      "correct_letter": "я",
+      "pair_letter": "а",
+      "options": [
+        "я",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "чуять",
+      "has_no_letter": false
+    },
+    {
+      "id": 287,
+      "display_word": "ре_ть",
+      "correct_letter": "я",
+      "pair_letter": "а",
+      "options": [
+        "я",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "реять",
+      "has_no_letter": false
+    },
+    {
+      "id": 288,
+      "display_word": "бле_ть",
+      "correct_letter": "я",
+      "pair_letter": "а",
+      "options": [
+        "я",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "блеять",
+      "has_no_letter": false
+    },
+    {
+      "id": 289,
+      "display_word": "кашл_ть",
+      "correct_letter": "я",
+      "pair_letter": "а",
+      "options": [
+        "я",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "кашлять",
+      "has_no_letter": false
+    },
+    {
+      "id": 290,
+      "display_word": "ма_ться",
+      "correct_letter": "я",
+      "pair_letter": "а",
+      "options": [
+        "я",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "маяться",
+      "has_no_letter": false
+    },
+    {
+      "id": 291,
+      "display_word": "ча_ть",
+      "correct_letter": "я",
+      "pair_letter": "а",
+      "options": [
+        "я",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "чаять",
+      "has_no_letter": false
+    },
+    {
+      "id": 292,
+      "display_word": "дра_ть",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "о",
+        "а",
+        "и",
+        "ы"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "драить",
+      "has_no_letter": false
+    },
+    {
+      "id": 293,
+      "display_word": "кле_ть",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "а",
+        "о",
+        "и",
+        "ы"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "клеить",
+      "has_no_letter": false
+    },
+    {
+      "id": 294,
+      "display_word": "вер_ть",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "и",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "верить",
+      "has_no_letter": false
+    },
+    {
+      "id": 295,
+      "display_word": "став_ть",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "о",
+        "а",
+        "и",
+        "ы"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "ставить",
+      "has_no_letter": false
+    },
+    {
+      "id": 296,
+      "display_word": "добав_ть",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "о",
+        "ы",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "добавить",
+      "has_no_letter": false
+    },
+    {
+      "id": 297,
+      "display_word": "короб_ть",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "а",
+        "о",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "коробить",
+      "has_no_letter": false
+    },
+    {
+      "id": 298,
+      "display_word": "езд_ть",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "и",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "ездить",
+      "has_no_letter": false
+    },
+    {
+      "id": 299,
+      "display_word": "жар_ть",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "ы",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "жарить",
+      "has_no_letter": false
+    },
+    {
+      "id": 300,
+      "display_word": "обветр_ться",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "и",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "обветриться",
+      "has_no_letter": false
+    },
+    {
+      "id": 301,
+      "display_word": "стро_ть",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "а",
+        "ы",
+        "и",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "строить",
+      "has_no_letter": false
+    },
+    {
+      "id": 302,
+      "display_word": "сто_ть",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "ы",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "стоить",
+      "has_no_letter": false
+    },
+    {
+      "id": 303,
+      "display_word": "удосто_ть",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "о",
+        "ы",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "удостоить",
+      "has_no_letter": false
+    },
+    {
+      "id": 304,
+      "display_word": "рис_вать",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "и",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "рисовать",
+      "has_no_letter": false
+    },
+    {
+      "id": 305,
+      "display_word": "раздум_вать",
+      "correct_letter": "ы",
+      "pair_letter": "и",
+      "options": [
+        "ы",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "раздумывать",
+      "has_no_letter": false
+    },
+    {
+      "id": 306,
+      "display_word": "преодол_вать",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "преодолевать",
+      "has_no_letter": false
+    },
+    {
+      "id": 307,
+      "display_word": "высид_ть",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "высидеть",
+      "has_no_letter": false
+    },
+    {
+      "id": 308,
+      "display_word": "завед_вать",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "и",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "заведовать",
+      "has_no_letter": false
+    },
+    {
+      "id": 309,
+      "display_word": "исповед_вать",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "е",
+        "о",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "исповедовать",
+      "has_no_letter": false
+    },
+    {
+      "id": 310,
+      "display_word": "отклад_вать",
+      "correct_letter": "ы",
+      "pair_letter": "и",
+      "options": [
+        "ы",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "откладывать",
+      "has_no_letter": false
+    },
+    {
+      "id": 311,
+      "display_word": "развед_вательный",
+      "correct_letter": "ы",
+      "pair_letter": "и",
+      "options": [
+        "ы",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "разведывательный",
+      "has_no_letter": false
+    },
+    {
+      "id": 312,
+      "display_word": "рассматр_вать",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "а",
+        "ы",
+        "о",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "рассматривать",
+      "has_no_letter": false
+    },
+    {
+      "id": 313,
+      "display_word": "зал_вать",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "и",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "заливать",
+      "has_no_letter": false
+    },
+    {
+      "id": 314,
+      "display_word": "затм_вать",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "затмевать",
+      "has_no_letter": false
+    },
+    {
+      "id": 315,
+      "display_word": "продл_вать",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "продлевать",
+      "has_no_letter": false
+    },
+    {
+      "id": 316,
+      "display_word": "застр_вать",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "застревать",
+      "has_no_letter": false
+    },
+    {
+      "id": 317,
+      "display_word": "обур_вать",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "обуревать",
+      "has_no_letter": false
+    },
+    {
+      "id": 318,
+      "display_word": "встр_вать",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "встревать",
+      "has_no_letter": false
+    },
+    {
+      "id": 319,
+      "display_word": "подразум_вать",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "подразумевать",
+      "has_no_letter": false
+    },
+    {
+      "id": 320,
+      "display_word": "недоум_вать",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "недоумевать",
+      "has_no_letter": false
+    },
+    {
+      "id": 321,
+      "display_word": "намер_ваться",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "намереваться",
+      "has_no_letter": false
+    },
+    {
+      "id": 322,
+      "display_word": "обозр_вать",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "обозревать",
+      "has_no_letter": false
+    },
+    {
+      "id": 323,
+      "display_word": "увещ_вать",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "увещевать",
+      "has_no_letter": false
+    },
+    {
+      "id": 324,
+      "display_word": "уп_вать",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "е",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "уповать",
+      "has_no_letter": false
+    },
+    {
+      "id": 325,
+      "display_word": "сомн_ваться",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "сомневаться",
+      "has_no_letter": false
+    },
+    {
+      "id": 326,
+      "display_word": "леден_ть от страха",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "леденеть от страха",
+      "has_no_letter": false
+    },
+    {
+      "id": 327,
+      "display_word": "костен_ть от ужаса",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "костенеть от ужаса",
+      "has_no_letter": false
+    },
+    {
+      "id": 328,
+      "display_word": "деревен_ть",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "деревенеть",
+      "has_no_letter": false
+    },
+    {
+      "id": 329,
+      "display_word": "кочен_ть от холода",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "коченеть от холода",
+      "has_no_letter": false
+    },
+    {
+      "id": 330,
+      "display_word": "леден_ть душу",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "о",
+        "а",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "леденить душу",
+      "has_no_letter": false
+    },
+    {
+      "id": 331,
+      "display_word": "окостен_ть взглядом",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "ы",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "окостенить взглядом",
+      "has_no_letter": false
+    },
+    {
+      "id": 332,
+      "display_word": "плеснев_ть",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "плесневеть",
+      "has_no_letter": false
+    },
+    {
+      "id": 333,
+      "display_word": "воодуш_вить",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "воодушевить",
+      "has_no_letter": false
+    },
+    {
+      "id": 334,
+      "display_word": "индев_ть",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "индеветь",
+      "has_no_letter": false
+    },
+    {
+      "id": 335,
+      "display_word": "пунц_веть",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "пунцеветь",
+      "has_no_letter": false
+    },
+    {
+      "id": 336,
+      "display_word": "засопл_веть",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "а",
+        "ы",
+        "и",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "засопливеть",
+      "has_no_letter": false
+    },
+    {
+      "id": 337,
+      "display_word": "зачервив_ть",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "зачервиветь",
+      "has_no_letter": false
+    },
+    {
+      "id": 338,
+      "display_word": "умилостив_ть",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "и",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Личные окончания глаголов (спряжение)",
+      "base_word": "умилостивить",
+      "has_no_letter": false
+    },
+    {
+      "id": 339,
+      "display_word": "умилост_вить",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "о",
+        "а",
+        "и",
+        "ы"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "умилостивить",
+      "has_no_letter": false
+    },
+    {
+      "id": 340,
+      "display_word": "размеж_вывать",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "размежевывать",
+      "has_no_letter": false
+    },
+    {
+      "id": 341,
+      "display_word": "выкорч_вывать",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "выкорчевывать",
+      "has_no_letter": false
+    },
+    {
+      "id": 342,
+      "display_word": "размеж_вка",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "размежевка",
+      "has_no_letter": false
+    },
+    {
+      "id": 343,
+      "display_word": "корч_вщик",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "корчевщик",
+      "has_no_letter": false
+    },
+    {
+      "id": 344,
+      "display_word": "сгущ_нный",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Н/НН в причастиях",
+      "base_word": "сгущенный",
+      "has_no_letter": false
+    },
+    {
+      "id": 345,
+      "display_word": "сгущ_нка",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "сгущенка",
+      "has_no_letter": false
+    },
+    {
+      "id": 346,
+      "display_word": "туш_ный",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "тушеный",
+      "has_no_letter": false
+    },
+    {
+      "id": 347,
+      "display_word": "туш_нка",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "тушенка",
+      "has_no_letter": false
+    },
+    {
+      "id": 348,
+      "display_word": "напряж_нность",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Н/НН в причастиях",
+      "base_word": "напряженность",
+      "has_no_letter": false
+    },
+    {
+      "id": 349,
+      "display_word": "ретуш_вка",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "а",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "ретушевка",
+      "has_no_letter": false
+    },
+    {
+      "id": 350,
+      "display_word": "ноч_вка",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "ночевка",
+      "has_no_letter": false
+    },
+    {
+      "id": 351,
+      "display_word": "ухаж_р",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "ухажер",
+      "has_no_letter": false
+    },
+    {
+      "id": 352,
+      "display_word": "монтаж_р",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "монтажер",
+      "has_no_letter": false
+    },
+    {
+      "id": 353,
+      "display_word": "тренаж_р",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "тренажер",
+      "has_no_letter": false
+    },
+    {
+      "id": 354,
+      "display_word": "тяж_лый",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "е",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "тяжелый",
+      "has_no_letter": false
+    },
+    {
+      "id": 355,
+      "display_word": "могуч_",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "могуче",
+      "has_no_letter": false
+    },
+    {
+      "id": 356,
+      "display_word": "плащ_вой",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "плащевой",
+      "has_no_letter": false
+    },
+    {
+      "id": 357,
+      "display_word": "пунш_вый",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "пуншевый",
+      "has_no_letter": false
+    },
+    {
+      "id": 358,
+      "display_word": "горош_к",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "а",
+        "о",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "горошек",
+      "has_no_letter": false
+    },
+    {
+      "id": 359,
+      "display_word": "танц_р",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "и",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "танцор",
+      "has_no_letter": false
+    },
+    {
+      "id": 360,
+      "display_word": "отц_в",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "е",
+        "и",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "отцов",
+      "has_no_letter": false
+    },
+    {
+      "id": 361,
+      "display_word": "пританц_вывать",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "и",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "пританцовывать",
+      "has_no_letter": false
+    },
+    {
+      "id": 362,
+      "display_word": "пунц_вый",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "о",
+        "и",
+        "е"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "пунцовый",
+      "has_no_letter": false
+    },
+    {
+      "id": 363,
+      "display_word": "танц_вщица",
+      "correct_letter": "о",
+      "pair_letter": "е",
+      "options": [
+        "е",
+        "о",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "танцовщица",
+      "has_no_letter": false
+    },
+    {
+      "id": 364,
+      "display_word": "кварц_вый",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "о",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "кварцевый",
+      "has_no_letter": false
+    },
+    {
+      "id": 365,
+      "display_word": "пунц_веть",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "о",
+        "е",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "пунцеветь",
+      "has_no_letter": false
+    },
+    {
+      "id": 366,
+      "display_word": "окольц_вать",
+      "correct_letter": "е",
+      "pair_letter": "о",
+      "options": [
+        "е",
+        "а",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "окольцевать",
+      "has_no_letter": false
+    },
+    {
+      "id": 367,
+      "display_word": "сестриц_н",
+      "correct_letter": "ы",
+      "pair_letter": "и",
+      "options": [
+        "ы",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "сестрицын",
+      "has_no_letter": false
+    },
+    {
+      "id": 368,
+      "display_word": "лисиц_н",
+      "correct_letter": "ы",
+      "pair_letter": "и",
+      "options": [
+        "ы",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "лисицын",
+      "has_no_letter": false
+    },
+    {
+      "id": 369,
+      "display_word": "цариц_н",
+      "correct_letter": "ы",
+      "pair_letter": "и",
+      "options": [
+        "ы",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "царицын",
+      "has_no_letter": false
+    },
+    {
+      "id": 370,
+      "display_word": "Цариц_но",
+      "correct_letter": "ы",
+      "pair_letter": "и",
+      "options": [
+        "ы",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "Царицыно",
+      "has_no_letter": false
+    },
+    {
+      "id": 371,
+      "display_word": "Голиц_но",
+      "correct_letter": "ы",
+      "pair_letter": "и",
+      "options": [
+        "ы",
+        "и"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "Голицыно",
+      "has_no_letter": false
+    },
+    {
+      "id": 372,
+      "display_word": "организац_я",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "а",
+        "и",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "организация",
+      "has_no_letter": false
+    },
+    {
+      "id": 373,
+      "display_word": "вакцинац_я",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "о",
+        "и",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "вакцинация",
+      "has_no_letter": false
+    },
+    {
+      "id": 374,
+      "display_word": "электрифиц_ровать",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "а",
+        "и",
+        "о"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "электрифицировать",
+      "has_no_letter": false
+    },
+    {
+      "id": 375,
+      "display_word": "медиц_на",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "и",
+        "о",
+        "а",
+        "ы"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "медицина",
+      "has_no_letter": false
+    },
+    {
+      "id": 376,
+      "display_word": "публиц_ст",
+      "correct_letter": "и",
+      "pair_letter": "ы",
+      "options": [
+        "ы",
+        "о",
+        "и",
+        "а"
+      ],
+      "explanation": null,
+      "rule": "Общее правило правописания",
+      "base_word": "публицист",
+      "has_no_letter": false
+    }
+  ],
+  "rules": {
+    "Общее правило правописания": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      9,
+      12,
+      13,
+      14,
+      15,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      75,
+      77,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      137,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      304,
+      305,
+      306,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      333,
+      335,
+      336,
+      339,
+      340,
+      341,
+      342,
+      343,
+      345,
+      346,
+      347,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376
+    ],
+    "Суффиксы -ек-/-ик- (проверка: родительный падеж)": [
+      6,
+      7,
+      10,
+      11
+    ],
+    "Суффиксы -чик-/-щик- (после д/т/з/с/ж -чик)": [
+      8
+    ],
+    "Суффиксы -еньк-/-оньк-": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      191,
+      192
+    ],
+    "Наречия (О/А на конце: с приставками из-/до-/с- пишем А)": [
+      74,
+      76,
+      78,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      136,
+      138
+    ],
+    "Н/НН в причастиях": [
+      155,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      344,
+      348
+    ],
+    "Личные окончания глаголов (спряжение)": [
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      307,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      334,
+      337,
+      338
+    ]
+  },
+  "total_words": 377,
+  "total_rules": 7
+}
