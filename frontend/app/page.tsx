@@ -177,7 +177,7 @@ export default function Home() {
           <h2 style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#1f2937' }}>
             Добро пожаловать, <span className="title-gradient">{session.username}</span>!
           </h2>
-          <p style={{ color: '#6b7280', marginTop: '0.5rem' }}>Выберите задание для тренировки и начните подготовку к ЕГЭ</p>
+          <p style={{ color: '#6b7280', marginTop: '0.5rem' }}>Если что-то не пашет пишите мне в <a href='https://t.me/Zeby4rek'>тг</a></p>
           
           <div className="stats-grid" style={{ marginTop: '1rem', maxWidth: '300px', marginLeft: 'auto', marginRight: 'auto' }}>
             <div className="stat-card">
