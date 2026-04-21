@@ -213,7 +213,7 @@ export default function Home() {
             <div className="tasks-grid">
               {part1Tasks.map((task: any) => {
                 // ✅ ВОТ ЗДЕСЬ используем taskProgress для каждого задания
-                const taskProg = taskProgress[task.task_number];
+                const taskProg = (taskProgress as any)[task.task_number];
                 const total = taskProg?.total_questions || 0;
                 const mastered = taskProg?.mastered_questions || 0;
                 const progressPercent = taskProg?.progress_percent || 0;
@@ -264,7 +264,7 @@ export default function Home() {
             </div>
             <div className="tasks-grid">
               {part2Tasks.map((task: any) => {
-                const taskProg = taskProgress[task.task_number];
+                const taskProg = (taskProgress as any)[task.task_number];
                 const total = taskProg?.total_questions || 0;
                 const mastered = taskProg?.mastered_questions || 0;
                 const progressPercent = taskProg?.progress_percent || 0;

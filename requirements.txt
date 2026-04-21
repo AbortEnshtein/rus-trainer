@@ -1,5 +1,0 @@
-# backend/requirements.txt
-fastapi
-uvicorn
-pydantic
-python-multipart

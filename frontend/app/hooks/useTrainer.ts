@@ -1,6 +1,7 @@
 // frontend/app/hooks/useTrainer.ts
+
 import { useState, useCallback } from 'react';
-import { getRandomWord, submitAnswer } from '../utils/api';
+import { getRandomQuestion, submitAnswer } from '../utils/api';
 import { Word, AnswerResponse } from '../types';
 
 export const useTrainer = (sessionId: string, onAnswer: () => void) => {
@@ -16,7 +17,7 @@ export const useTrainer = (sessionId: string, onAnswer: () => void) => {
     setFeedback(null);
     setSelectedAnswer(null);
     try {
-      const word = await getRandomWord(sessionId, mode, selectedRule || undefined);
+      const word = await getRandomQuestion(parseInt(selectedRule || '11'), sessionId, mode);
       setCurrentWord(word);
     } catch (error) {
       console.error('Failed to load word:', error);
@@ -32,11 +33,10 @@ export const useTrainer = (sessionId: string, onAnswer: () => void) => {
     setLoading(true);
 
     try {
-      const result = await submitAnswer(sessionId, currentWord.id, answer);
+      const result = await submitAnswer(sessionId, 11, currentWord.id, answer);
       setFeedback(result);
-      onAnswer(); // Обновляем статистику
+      onAnswer();
       
-      // Автоматически загружаем следующее слово через 1.5 секунды
       setTimeout(() => {
         loadWord();
       }, 1500);

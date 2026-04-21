@@ -1,5 +1,3 @@
-// frontend/app/task/[taskId]/page.tsx
-
 'use client';
 
 import { useParams, useRouter } from 'next/navigation';
@@ -8,22 +6,73 @@ import { useAuth } from '@/app/hooks/useAuth';
 import TaskRenderer from '@/app/components/TaskRenderer';
 import { getRandomQuestion, submitAnswer, getTaskInfo, getTaskHistory } from '@/app/utils/api';
 
+// Типы
+interface QuestionData {
+  id: number;
+  question_data: any;
+  user_stats?: {
+    correct_count: number;
+    wrong_count: number;
+  };
+}
+
+interface TaskInfo {
+  id: number;
+  task_number: number;
+  title: string;
+  description: string;
+  question_type: string;
+  answer_format: string;
+}
+
+interface Feedback {
+  is_correct: boolean;
+  correct_answer: string;
+  explanation?: string;
+  xp_earned?: number;
+}
+
+interface HistoryItem {
+  question_id: number;
+  question_text: string;
+  user_answer: string;
+  is_correct: boolean;
+  timestamp: string;
+}
+
+interface TaskStat {
+  task_number: number;
+  correct: number;
+  wrong: number;
+  accuracy: number;
+}
+
+interface TaskProgress {
+  total_questions: number;
+  mastered_questions: number;
+  remaining_questions: number;
+  progress_percent: number;
+}
+
 export default function TaskPage() {
   const { taskId } = useParams();
   const router = useRouter();
   const { session, refreshProgress, progress, taskProgress } = useAuth();
-  const [question, setQuestion] = useState(null);
-  const [taskInfo, setTaskInfo] = useState(null);
-  const [feedback, setFeedback] = useState(null);
+  const [question, setQuestion] = useState<QuestionData | null>(null);
+  const [taskInfo, setTaskInfo] = useState<TaskInfo | null>(null);
+  const [feedback, setFeedback] = useState<Feedback | null>(null);
   const [loading, setLoading] = useState(true);
-  const [selectedAnswer, setSelectedAnswer] = useState(null);
+  const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [mode, setMode] = useState('random');
-  const [history, setHistory] = useState([]);
+  const [history, setHistory] = useState<HistoryItem[]>([]);
   const [showHistory, setShowHistory] = useState(true);
 
+  const taskNumber = parseInt(taskId as string, 10);
+
   const loadTaskInfo = async () => {
+    if (!session) return;
     try {
-      const info = await getTaskInfo(parseInt(taskId as string), session!.session_id);
+      const info = await getTaskInfo(taskNumber, session.session_id);
       setTaskInfo(info);
     } catch (error) {
       console.error('Failed to load task info:', error);
@@ -31,8 +80,9 @@ export default function TaskPage() {
   };
 
   const loadHistory = async () => {
+    if (!session) return;
     try {
-      const data = await getTaskHistory(session!.session_id, parseInt(taskId as string));
+      const data = await getTaskHistory(session.session_id, taskNumber);
       setHistory(data);
     } catch (error) {
       console.error('Failed to load history:', error);
@@ -46,7 +96,7 @@ export default function TaskPage() {
     setSelectedAnswer(null);
     
     try {
-      const data = await getRandomQuestion(parseInt(taskId as string), session.session_id, mode);
+      const data = await getRandomQuestion(taskNumber, session.session_id, mode);
       setQuestion(data);
     } catch (error) {
       console.error('Failed to load question:', error);
@@ -61,7 +111,7 @@ export default function TaskPage() {
       loadHistory();
       loadQuestion();
     }
-  }, [taskId, session, mode]);
+  }, [taskNumber, session, mode]);
 
   const handleAnswer = async (answer: string) => {
     if (!session || !question || selectedAnswer) return;
@@ -72,7 +122,7 @@ export default function TaskPage() {
     try {
       const result = await submitAnswer(
         session.session_id,
-        parseInt(taskId as string),
+        taskNumber,
         question.id,
         answer
       );
@@ -90,20 +140,21 @@ export default function TaskPage() {
     }
   };
 
-  const getCurrentTaskStats = () => {
+  const getCurrentTaskStats = (): TaskStat | null => {
     if (!progress?.task_stats) return null;
-    return progress.task_stats.find((s: any) => s.task_number === parseInt(taskId as string));
+    return progress.task_stats.find((s: TaskStat) => s.task_number === taskNumber) || null;
   };
 
-  const getCurrentTaskProgress = () => {
+  const getCurrentTaskProgress = (): TaskProgress | null => {
     if (!taskProgress) return null;
-    return taskProgress[parseInt(taskId as string)];
+    const progressTyped = taskProgress as Record<number, TaskProgress>;
+    return progressTyped[taskNumber] || null;
   };
 
   const taskStats = getCurrentTaskStats();
   const taskProg = getCurrentTaskProgress();
 
-  const getProgressColor = (percent: number) => {
+  const getProgressColor = (percent: number): string => {
     if (percent < 30) return '#dc2626';
     if (percent < 60) return '#f59e0b';
     if (percent < 85) return '#3b82f6';
@@ -134,7 +185,7 @@ export default function TaskPage() {
             <h1 style={{ fontSize: '1.25rem', fontWeight: 'bold', background: 'linear-gradient(135deg, #2563eb, #1e40af)', WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent' }}>
               ЕГЭ Русский язык
             </h1>
-            <p style={{ fontSize: '0.875rem', color: '#6b7280' }}>Задание №{taskId} • {taskInfo?.title || 'Тренажёр'}</p>
+            <p style={{ fontSize: '0.875rem', color: '#6b7280' }}>Задание №{taskNumber} • {taskInfo?.title || 'Тренажёр'}</p>
           </div>
           
           <div style={{ width: '4rem' }}></div>
@@ -146,7 +197,7 @@ export default function TaskPage() {
         <div className="max-w-7xl mx-auto" style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap' }}>
           
           {/* Левая колонка - вопрос и статистика */}
-          <div style={{ flex: showHistory ? 2 : 1, minWidth: '380px' }}>
+          <div style={{ flex: showHistory ? 2 : 1, minWidth: '280px' }}>
             {/* Информация о задании */}
             {taskInfo && (
               <div className="card" style={{ padding: '1rem', marginBottom: '1rem', textAlign: 'center' }}>
@@ -179,7 +230,7 @@ export default function TaskPage() {
             <div className="card" style={{ padding: '1.5rem', marginBottom: '1.5rem' }}>
               {question && (
                 <TaskRenderer
-                  taskNumber={parseInt(taskId as string)}
+                  taskNumber={taskNumber}
                   questionData={question.question_data}
                   onAnswer={handleAnswer}
                   disabled={!!selectedAnswer}
@@ -197,6 +248,11 @@ export default function TaskPage() {
                   {!feedback.is_correct && (
                     <div className="task11-result-answer">
                       Правильно: <strong>{feedback.correct_answer}</strong>
+                    </div>
+                  )}
+                  {feedback.explanation && (
+                    <div className="task11-result-explanation">
+                      {feedback.explanation}
                     </div>
                   )}
                   <div className="task11-result-next">
@@ -237,15 +293,15 @@ export default function TaskPage() {
             {taskStats && (
               <div className="task-stats">
                 <div className="task-stat-card">
-                  <div className="task-stat-value task-stat-value-success">{taskStats.correct || 0}</div>
+                  <div className="task-stat-value task-stat-value-success">{taskStats.correct}</div>
                   <div className="task-stat-label">правильных ответов</div>
                 </div>
                 <div className="task-stat-card">
-                  <div className="task-stat-value task-stat-value-error">{taskStats.wrong || 0}</div>
+                  <div className="task-stat-value task-stat-value-error">{taskStats.wrong}</div>
                   <div className="task-stat-label">неправильных ответов</div>
                 </div>
                 <div className="task-stat-card">
-                  <div className="task-stat-value task-stat-value-primary">{taskStats.accuracy || 0}%</div>
+                  <div className="task-stat-value task-stat-value-primary">{taskStats.accuracy}%</div>
                   <div className="task-stat-label">точность</div>
                 </div>
               </div>
@@ -274,7 +330,7 @@ export default function TaskPage() {
                   </div>
                 ) : (
                   <div style={{ maxHeight: '500px', overflowY: 'auto' }}>
-                    {history.map((item: any, idx: number) => (
+                    {history.map((item, idx) => (
                       <div
                         key={idx}
                         style={{

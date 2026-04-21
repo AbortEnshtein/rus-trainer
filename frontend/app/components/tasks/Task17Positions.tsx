@@ -8,6 +8,7 @@ interface Task17PositionsProps {
   questionData: {
     sentence: string;
     positions: number[];
+    type: string;
   };
   onAnswer: (answer: string) => void;
   disabled?: boolean;
@@ -16,10 +17,11 @@ interface Task17PositionsProps {
 
 export default function Task17Positions({ questionData, onAnswer, disabled, selectedAnswer }: Task17PositionsProps) {
   const [selectedPositions, setSelectedPositions] = useState<number[]>([]);
+  const [submitted, setSubmitted] = useState(false);
 
-  // Сбрасываем выбранные позиции при загрузке нового вопроса
   useEffect(() => {
     setSelectedPositions([]);
+    setSubmitted(false);
   }, [questionData]);
 
   if (!questionData?.sentence) {
@@ -27,7 +29,7 @@ export default function Task17Positions({ questionData, onAnswer, disabled, sele
   }
 
   const togglePosition = (pos: number) => {
-    if (disabled || selectedAnswer) return;
+    if (disabled || submitted || selectedAnswer) return;
     
     setSelectedPositions(prev => 
       prev.includes(pos) 
@@ -37,48 +39,30 @@ export default function Task17Positions({ questionData, onAnswer, disabled, sele
   };
 
   const handleSubmit = () => {
-    if (disabled || selectedAnswer) return;
+    if (disabled || submitted || selectedAnswer) return;
     const answer = selectedPositions.sort((a, b) => a - b).join('');
     onAnswer(answer);
-  };
-
-  // Форматируем предложение: заменяем / на <br/> для переноса строки
-  const formatSentence = (sentence: string) => {
-    // Заменяем / на <br/> и убираем лишние пробелы
-    const parts = sentence.split('/');
-    return parts.map((part, index) => (
-      <span key={index}>
-        {part.trim()}
-        {index < parts.length - 1 && <br />}
-      </span>
-    ));
+    setSubmitted(true);
   };
 
   const renderSentence = () => {
-    const parts = [];
+    const parts: Array<{ type: 'text'; content: string } | { type: 'button'; position: number; isSelected: boolean }> = [];
     let currentPos = 0;
     const regex = /\((\d+)\)/g;
-    
-    // Сначала заменяем / на временный маркер, чтобы не сломать позиции
-    let tempSentence = questionData.sentence;
-    
-    const matches = [...tempSentence.matchAll(regex)];
+    const matches = [...questionData.sentence.matchAll(regex)];
     
     if (matches.length === 0) {
-      // Нет позиций - просто возвращаем отформатированное предложение
-      return <div className="task17-sentence">{formatSentence(tempSentence)}</div>;
+      return <div className="task17-sentence">{questionData.sentence}</div>;
     }
     
-    // Разбиваем предложение на части
     for (const match of matches) {
-      const pos = parseInt(match[1]);
+      const pos = parseInt(match[1], 10);
       const matchIndex = match.index!;
       
       if (matchIndex > currentPos) {
-        const textPart = tempSentence.substring(currentPos, matchIndex);
         parts.push({
           type: 'text',
-          content: formatSentence(textPart)
+          content: questionData.sentence.substring(currentPos, matchIndex)
         });
       }
       
@@ -91,11 +75,10 @@ export default function Task17Positions({ questionData, onAnswer, disabled, sele
       currentPos = matchIndex + match[0].length;
     }
     
-    if (currentPos < tempSentence.length) {
-      const textPart = tempSentence.substring(currentPos);
+    if (currentPos < questionData.sentence.length) {
       parts.push({
         type: 'text',
-        content: formatSentence(textPart)
+        content: questionData.sentence.substring(currentPos)
       });
     }
     
@@ -109,7 +92,7 @@ export default function Task17Positions({ questionData, onAnswer, disabled, sele
               <button
                 key={idx}
                 onClick={() => togglePosition(item.position)}
-                disabled={disabled || !!selectedAnswer}
+                disabled={disabled || !!selectedAnswer || submitted}
                 className={`task17-position ${item.isSelected ? 'task17-position-selected' : ''}`}
               >
                 {item.position}
@@ -129,7 +112,7 @@ export default function Task17Positions({ questionData, onAnswer, disabled, sele
 
       {renderSentence()}
 
-      {!selectedAnswer && (
+      {!submitted && !selectedAnswer && (
         <button
           onClick={handleSubmit}
           disabled={disabled}

@@ -2,10 +2,53 @@
 
 import { useState, useEffect } from 'react';
 import { login, getUserStats } from '../utils/api';
+interface SessionData {
+  session_id: string;
+  user_id: number;
+  username: string;
+}
+
+interface UserProgress {
+  total_correct: number;
+  total_wrong: number;
+  accuracy: number;
+  today_correct: number;
+  today_wrong: number;
+  total_xp: number;
+  rank: {
+    name: string;
+    icon: string;
+    color: string;
+    current_xp: number;
+    next_rank_name: string | null;
+    xp_to_next: number;
+  };
+  task_stats: Array<{
+    task_number: number;
+    correct: number;
+    wrong: number;
+    accuracy: number;
+  }>;
+  task_progress: {
+    [key: number]: {
+      total_questions: number;
+      mastered_questions: number;
+      remaining_questions: number;
+      progress_percent: number;
+    };
+  };
+  recent_history: Array<{
+    question_id: number;
+    question_text: string;
+    user_answer: string;
+    is_correct: boolean;
+    timestamp: string;
+  }>;
+}
 
 export const useAuth = () => {
-  const [session, setSession] = useState(null);
-  const [progress, setProgress] = useState(null);
+  const [session, setSession] = useState<SessionData | null>(null);
+  const [progress, setProgress] = useState<UserProgress | null>(null);
   const [taskProgress, setTaskProgress] = useState({});
   const [loading, setLoading] = useState(false);
 
