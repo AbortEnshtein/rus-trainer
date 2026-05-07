@@ -1,76 +1,64 @@
 {
-  // ============================================================
-  //                     НАСТРОЙКИ ЛОГИРОВАНИЯ
-  // ============================================================
   "log": {
-    "loglevel": "info"           // Уровень детализации: debug, info, warning, error
+    "loglevel": "info"
   },
-
-  // ============================================================
-  //                     ВХОДЯЩИЕ ПОДКЛЮЧЕНИЯ (INBOUNDS)
-  //      Сюда подключаются клиенты (твой телефон, планшет и т.д.)
-  // ============================================================
   "inbounds": [
-
-    // ---------- INBOUND 1: gRPC (основной, максимальная маскировка) ----------
     {
-      "tag": "inbound-grpc",                      // Имя для правил маршрутизации
-      "port": 443,                                 // Стандартный HTTPS-порт (не вызывает подозрений)
-      "protocol": "vless",                         // Протокол VLESS (без авторизации, только UUID)
+      "tag": "inbound-grpc",
+      "port": 443,
+      "protocol": "vless",
       "settings": {
         "clients": [
           {
-            "id": "9801a01b-a53f-49b0-b4bb-2bfe3606ce95", // UUID клиента (телефона) для gRPC
-            "flow": ""                             // Flow не используется с gRPC
-          }
-        ],
-        "decryption": "none"                       // VLESS не шифрует (шифрование на TLS)
-      },
-      "streamSettings": {
-        "network": "grpc",                         // Транспорт: gRPC поверх HTTP/2
-        "security": "reality",                     // Маскировка TLS-рукопожатия под настоящий сайт
-        "realitySettings": {
-          "show": false,                           // Не показывать REALITY-заголовки
-          "dest": "5post-gate.x5.ru:443",          // Сайт-камуфляж: API Пятёрочки (X5)
-          "xver": 0,                               // Не использовать X-Forwarded-For
-          "serverNames": ["5post-gate.x5.ru"],     // SNI: притворяемся, что идём на этот домен
-          "privateKey": "aBYxL_lvjXyqAGsSLSwKSTNzaFJ1KlP36odATLX_P34", // Приватный ключ REALITY
-          "shortIds": ["bb0abf9eca00f804"]         // Дополнительный идентификатор (как пароль)
-        },
-        "grpcSettings": {
-          "serviceName": "5post-gate.x5.ru"        // Путь gRPC-сервиса (маскировка под API X5)
-        }
-      },
-      "sniffing": {
-        "enabled": true,                           // Включить "обоняние" доменов
-        "destOverride": ["http", "tls", "quic"]    // Подменять IP на домен для HTTP, TLS, QUIC
-      }
-    },
-
-    // ---------- INBOUND 2: TCP + XTLS-Vision (резервный, максимальная скорость) ----------
-    {
-      "tag": "inbound-tcp",                        // Имя для правил маршрутизации
-      "port": 8443,                                // Нестандартный порт (443 занят gRPC)
-      "protocol": "vless",                         // Протокол VLESS
-      "settings": {
-        "clients": [
-          {
-            "id": "fbb1223d-f214-4863-69f5-c4e4d78bbe8b",        // <- ЗАМЕНИ: сгенерируй новый UUID
-            "flow": ""                             // Flow указывается у пользователя, а не здесь
+            "id": "cca7edb8-2f2f-4b07-a71a-1ce9577d9d0d",
+            "flow": ""
           }
         ],
         "decryption": "none"
       },
       "streamSettings": {
-        "network": "tcp",                          // Транспорт: чистый TCP (быстрее gRPC)
-        "security": "reality",                     // Маскировка TLS-рукопожатия
+        "network": "grpc",
+        "security": "reality",
         "realitySettings": {
           "show": false,
-          "dest": "max.ru:443",        // Сайт-камуфляж: max.ru (точно в белых списках)
+          "dest": "5post-gate.x5.ru:443",
           "xver": 0,
-          "serverNames": ["max.ru"],   // SNI: притворяемся Яндекс.Картами
-          "privateKey": "aBYxL_lvjXyqAGsSLSwKSTNzaFJ1KlP36odATLX_P34",  // <- ЗАМЕНИ: сгенерируй xray x25519
-          "shortIds": ["bb0abf9eca00f804"]          // <- ЗАМЕНИ: сгенерируй openssl rand -hex 8
+          "serverNames": ["5post-gate.x5.ru"],
+          "privateKey": "WPcMRVmIbu-ican55Roub_8okJLUJ0vm1WQ0YOWQpUg",
+          "shortIds": ["fd4505e7da7d4ae1"]
+        },
+        "grpcSettings": {
+          "serviceName": "5post-gate.x5.ru"
+        }
+      },
+      "sniffing": {
+        "enabled": true,
+        "destOverride": ["http", "tls", "quic"]
+      }
+    },
+    {
+      "tag": "inbound-tcp",
+      "port": 8443,
+      "protocol": "vless",
+      "settings": {
+        "clients": [
+          {
+            "id": "a9de4e19-8526-44a1-8f4a-292dde17cd0e",
+            "flow": ""
+          }
+        ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "dest": "max.ru:443",
+          "xver": 0,
+          "serverNames": ["max.ru"],
+          "privateKey": "WPcMRVmIbu-ican55Roub_8okJLUJ0vm1WQ0YOWQpUg",
+          "shortIds": ["fd4505e7da7d4ae1"]
         }
       },
       "sniffing": {
@@ -79,94 +67,80 @@
       }
     }
   ],
-
-  // ============================================================
-  //                  ИСХОДЯЩИЕ ПОДКЛЮЧЕНИЯ (OUTBOUNDS)
-  //      Куда сервер отправляет трафик дальше по цепочке
-  // ============================================================
   "outbounds": [
-
-    // ---------- OUTBOUND 1: Переброс на эстонский сервер через gRPC ----------
     {
-      "tag": "relay-to-estonia-grpc",              // Имя для правил маршрутизации
-      "protocol": "vless",                         // VLESS-туннель до эстонского сервера
+      "tag": "relay-to-estonia-grpc",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "5.101.118.73",             // IP эстонского сервера
-            "port": 8443,                          // Порт эстонского inbound для gRPC
+            "address": "5.101.118.73",
+            "port": 8443,
             "users": [
               {
-                "id": "UUID-ЭСТОНСКОГО-ПОЛЬЗОВАТЕЛЯ-gRPC", // UUID из Marzban (пользователь для gRPC)
+                "id": "ed166876-1718-4d08-80e1-7f97114b1a7e",
                 "encryption": "none",
-                "flow": ""                         // Flow пустой для gRPC
+                "flow": ""
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "grpc",                         // gRPC, потому что эстонский inbound ждёт gRPC
-        "security": "reality",                     // REALITY для маскировки между серверами
+        "network": "grpc",
+        "security": "reality",
         "realitySettings": {
-          "serverName": "5post-gate.x5.ru",        // SNI камуфляжа (должен совпадать с эстонским)
-          "publicKey": "G0BfV-Euw1z4f6jLeUH1PuGss2wptw-2p33eebsE0Qc", // <- Публичный ключ из Marzban
-          "shortId": "5460139e7757f3d0",   // <- Short ID из Marzban
-          "fingerprint": "chrome"                  // Имитация браузера Chrome
+          "serverName": "5post-gate.x5.ru",
+          "publicKey": "5VNgNvrtGmzex9_oA0QLxJ0JNxGxkodc2xXUmZP3d3E",
+          "shortId": "fd4505e7da7d4ae1",
+          "fingerprint": "chrome"
         },
         "grpcSettings": {
-          "serviceName": "5post-gate.x5.ru"        // Должен совпадать с эстонским inbound
+          "serviceName": "5post-gate.x5.ru"
         }
       }
     },
-
-    // ---------- OUTBOUND 2: Переброс на эстонский сервер через TCP + XTLS-Vision ----------
     {
-      "tag": "relay-to-estonia-tcp",               // Имя для правил маршрутизации
-      "protocol": "vless",                         // VLESS-туннель до эстонского сервера
+      "tag": "relay-to-estonia-tcp",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "5.101.118.73",             // IP эстонского сервера
-            "port": 443,                          // Порт эстонского inbound для TCP
+            "address": "5.101.118.73",
+            "port": 443,
             "users": [
               {
-                "id": "f7a7c0e4-c83a-4d01-b350-2e4496c811d6", // UUID из Marzban (новый пользователь)
+                "id": "f7a7c0e4-c83a-4d01-b350-2e4496c811d6",
                 "encryption": "none",
-                "flow": "xtls-rprx-vision"         // XTLS-Vision для скорости (только для TCP!)
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",                          // TCP, потому что этот эстонский inbound ждёт TCP
-        "security": "reality",                     // REALITY для маскировки между серверами
+        "network": "tcp",
+        "security": "reality",
         "realitySettings": {
-          "serverName": "max.ru",      // SNI камуфляжа (должен совпадать с эстонским)
-          "publicKey": "G0BfV-Euw1z4f6jLeUH1PuGss2wptw-2p33eebsE0Qc", // <- Публичный ключ из Marzban
-          "shortId": "5460139e7757f3d0",    // <- Short ID из Marzban
+          "serverName": "max.ru",
+          "publicKey": "5VNgNvrtGmzex9_oA0QLxJ0JNxGxkodc2xXUmZP3d3E",
+          "shortId": "fd4505e7da7d4ae1",
           "fingerprint": "chrome"
         }
       }
     }
   ],
-
-  // ============================================================
-  //                     ПРАВИЛА МАРШРУТИЗАЦИИ (ROUTING)
-  //         Какой inbound отправлять в какой outbound
-  // ============================================================
   "routing": {
     "rules": [
       {
         "type": "field",
-        "inboundTag": ["inbound-grpc"],                   // Если клиент подключился к gRPC inbound
-        "outboundTag": "relay-to-estonia-grpc"             // Отправляем в gRPC outbound
+        "inboundTag": ["inbound-grpc"],
+        "outboundTag": "relay-to-estonia-grpc"
       },
       {
         "type": "field",
-        "inboundTag": ["inbound-tcp"],                     // Если клиент подключился к TCP inbound
-        "outboundTag": "relay-to-estonia-tcp"              // Отправляем в TCP outbound
+        "inboundTag": ["inbound-tcp"],
+        "outboundTag": "relay-to-estonia-tcp"
       }
     ]
   }
