@@ -24,8 +24,8 @@
           "dest": "5post-gate.x5.ru:443",
           "xver": 0,
           "serverNames": ["5post-gate.x5.ru"],
-          "privateKey": "aBYxL_lvjXyqAGsSLSwKSTNzaFJ1KlP36odATLX_P34",
-          "shortIds": ["bb0abf9eca00f804"]
+          "privateKey": "GFMwbEs_BP3zgZS-MlIIXQcp1d3NaG6zAoJ0m0FRwks",
+          "shortIds": ["6fe75b6742fab61f"]
         },
         "grpcSettings": {
           "serviceName": "5post-gate.x5.ru"
