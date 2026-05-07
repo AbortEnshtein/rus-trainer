@@ -10,7 +10,7 @@
       "settings": {
         "clients": [
           {
-            "id": "UUID-ДЛЯ-ТЕЛЕФОНА",
+            "id": "9801a01b-a53f-49b0-b4bb-2bfe3606ce95",
             "flow": ""
           }
         ],
@@ -21,14 +21,14 @@
         "security": "reality",
         "realitySettings": {
           "show": false,
-          "dest": "api-maps.yandex.ru:443",
+          "dest": "5post-gate.x5.ru:443",
           "xver": 0,
-          "serverNames": ["api-maps.yandex.ru"],
-          "privateKey": "ПРИВАТНЫЙ_КЛЮЧ_РОССИЙСКОГО",
-          "shortIds": ["SHORT_ID_РОССИЙСКОГО"]
+          "serverNames": ["5post-gate.x5.ru"],
+          "privateKey": "aBYxL_lvjXyqAGsSLSwKSTNzaFJ1KlP36odATLX_P34",
+          "shortIds": ["bb0abf9eca00f804"]
         },
         "grpcSettings": {
-          "serviceName": "api-maps.yandex.ru"
+          "serviceName": "5post-gate.x5.ru"
         }
       },
       "sniffing": {
@@ -44,11 +44,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "IP_ЭСТОНСКОГО_СЕРВЕРА",
-            "port": 443,
+            "address": "5.101.118.73",
+            "port": 8443,
             "users": [
               {
-                "id": "UUID-ЭСТОНСКОГО-ПОЛЬЗОВАТЕЛЯ",
+                "id": "ed166876-1718-4d08-80e1-7f97114b1a7e",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -60,9 +60,9 @@
         "network": "tcp",
         "security": "reality",
         "realitySettings": {
-          "serverName": "api-maps.yandex.ru",
-          "publicKey": "ПУБЛИЧНЫЙ_КЛЮЧ_ЭСТОНСКОГО",
-          "shortId": "SHORT_ID_ЭСТОНСКОГО",
+          "serverName": "5post-gate.x5.ru",
+          "publicKey": "G0BfV-Euw1z4f6jLeUH1PuGss2wptw-2p33eebsE0Qc",
+          "shortId": "5460139e7757f3d0",
           "fingerprint": "chrome"
         }
       }
