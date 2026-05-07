@@ -1,0 +1,80 @@
+{
+  "log": {
+    "loglevel": "info"
+  },
+  "inbounds": [
+    {
+      "tag": "inbound",
+      "port": 443,
+      "protocol": "vless",
+      "settings": {
+        "clients": [
+          {
+            "id": "UUID-ДЛЯ-ТЕЛЕФОНА",
+            "flow": ""
+          }
+        ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "dest": "api-maps.yandex.ru:443",
+          "xver": 0,
+          "serverNames": ["api-maps.yandex.ru"],
+          "privateKey": "ПРИВАТНЫЙ_КЛЮЧ_РОССИЙСКОГО",
+          "shortIds": ["SHORT_ID_РОССИЙСКОГО"]
+        },
+        "grpcSettings": {
+          "serviceName": "api-maps.yandex.ru"
+        }
+      },
+      "sniffing": {
+        "enabled": true,
+        "destOverride": ["http", "tls", "quic"]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "relay-to-estonia",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "IP_ЭСТОНСКОГО_СЕРВЕРА",
+            "port": 443,
+            "users": [
+              {
+                "id": "UUID-ЭСТОНСКОГО-ПОЛЬЗОВАТЕЛЯ",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "api-maps.yandex.ru",
+          "publicKey": "ПУБЛИЧНЫЙ_КЛЮЧ_ЭСТОНСКОГО",
+          "shortId": "SHORT_ID_ЭСТОНСКОГО",
+          "fingerprint": "chrome"
+        }
+      }
+    }
+  ],
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "inboundTag": ["inbound"],
+        "outboundTag": "relay-to-estonia"
+      }
+    ]
+  }
+}
