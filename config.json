@@ -88,10 +88,12 @@
           "xver": 0,
           "serverNames": ["stream-1.kinograd.online"],
           "privateKey": "WPcMRVmIbu-ican55Roub_8okJLUJ0vm1WQ0YOWQpUg",
-          "shortIds": ["fd4505e7da7d4ae1"]
+          "shortIds": ["fd4505e7da7d4ae1"],
+          "fingerprint": "qq",
+          "alpn": ["h3", "h2", "http/1.1"]
         },
         "grpcSettings": {
-          "serviceName": "stream-1.kinograd.online"
+          "serviceName": "live/stream?module=video-cdn&app_client_id=cc8c59b8-7c86-417b-a522-b0cc29fcc2f8"
         }
       },
       "sniffing": {
