@@ -67,7 +67,7 @@
       }
     },
     {
-      "tag": "inbound-ws",
+      "tag": "inbound-video",
       "port": 8080,
       "protocol": "vless",
       "settings": {
@@ -80,22 +80,19 @@
         "decryption": "none"
       },
       "streamSettings": {
-          "network": "ws",
-          "security": "reality",
-          "realitySettings": {
-              "show": false,
-              "dest": "stream-1.kinograd.online:443",
-              "xver": 0,
-              "serverNames": ["stream-1.kinograd.online"],
-              "privateKey": "WPcMRVmIbu-ican55Roub_8okJLUJ0vm1WQ0YOWQpUg",
-              "shortIds": ["fd4505e7da7d4ae1"]
-          },
-          "wsSettings": {
-              "path": "/live/stream?module=video-cdn&app_client_id=cc8c59b8-7c86-417b-a522-b0cc29fcc2f8",
-              "headers": {
-                  "Host": "stream-1.kinograd.online"
-              }
-          }
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "dest": "stream-1.kinograd.online:443",
+          "xver": 0,
+          "serverNames": ["stream-1.kinograd.online"],
+          "privateKey": "WPcMRVmIbu-ican55Roub_8okJLUJ0vm1WQ0YOWQpUg",
+          "shortIds": ["fd4505e7da7d4ae1"]
+        },
+        "grpcSettings": {
+          "serviceName": "stream-1.kinograd.online"
+        }
       },
       "sniffing": {
         "enabled": true,
@@ -199,8 +196,8 @@
     "rules": [
       {
         "type": "field",
-        "inboundTag": ["inbound-ws"],
-        "outboundTag": "relay-to-estonia-ws"
+        "inboundTag": ["inbound-video"],
+        "outboundTag": "relay-to-estonia-grpc"
       },
       {
         "type": "field",
