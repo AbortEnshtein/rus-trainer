@@ -65,9 +65,71 @@
         "enabled": true,
         "destOverride": ["http", "tls", "quic"]
       }
+    },
+    {
+      "tag": "inbound-ws",
+      "port": 8080,
+      "protocol": "vless",
+      "settings": {
+        "clients": [
+          {
+            "id": "4debdf52-b742-44fe-8753-8162dbe17cdb",
+            "flow": ""
+          }
+        ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "stream-1.kinograd.online",
+          "fingerprint": "qq",
+          "alpn": ["h3", "h2", "http/1.1"]
+        },
+        "wsSettings": {
+          "path": "/live/stream?module=video-cdn&app_client_id=cc8c59b8-7c86-417b-a522-b0cc29fcc2f8",
+          "headers": {
+            "Host": "stream-1.kinograd.online"
+          }
+        }
+      },
+      "sniffing": {
+        "enabled": true,
+        "destOverride": ["http", "tls", "quic"]
+      }
     }
   ],
   "outbounds": [
+    {
+      "tag": "relay-to-estonia-ws",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5.101.118.73",
+            "port": 443,
+            "users": [
+              {
+                "id": "f7a7c0e4-c83a-4d01-b350-2e4496c811d6",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "publicKey": "5VNgNvrtGmzex9_oA0QLxJ0JNxGxkodc2xXUmZP3d3E",
+          "shortId": "fd4505e7da7d4ae1",
+          "fingerprint": "chrome"
+        }
+      }
+    },
     {
       "tag": "relay-to-estonia-grpc",
       "protocol": "vless",
@@ -132,6 +194,11 @@
   ],
   "routing": {
     "rules": [
+      {
+        "type": "field",
+        "inboundTag": ["inbound-ws"],
+        "outboundTag": "relay-to-estonia-ws"
+      },
       {
         "type": "field",
         "inboundTag": ["inbound-grpc"],
