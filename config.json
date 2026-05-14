@@ -124,8 +124,8 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "max.ru",
-          "publicKey": "5VNgNvrtGmzex9_oA0QLxJ0JNxGxkodc2xXUmZP3d3E",
-          "shortId": "fd4505e7da7d4ae1",
+          "publicKey": "G0BfV-Euw1z4f6jLeUH1PuGss2wptw-2p33eebsE0Qc",
+          "shortId": "5460139e7757f3d0",
           "fingerprint": "chrome"
         }
       }
@@ -153,8 +153,8 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "5post-gate.x5.ru",
-          "publicKey": "5VNgNvrtGmzex9_oA0QLxJ0JNxGxkodc2xXUmZP3d3E",
-          "shortId": "fd4505e7da7d4ae1",
+          "publicKey": "G0BfV-Euw1z4f6jLeUH1PuGss2wptw-2p33eebsE0Qc",
+          "shortId": "5460139e7757f3d0",
           "fingerprint": "chrome"
         },
         "grpcSettings": {
@@ -185,8 +185,8 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "max.ru",
-          "publicKey": "5VNgNvrtGmzex9_oA0QLxJ0JNxGxkodc2xXUmZP3d3E",
-          "shortId": "fd4505e7da7d4ae1",
+          "publicKey": "G0BfV-Euw1z4f6jLeUH1PuGss2wptw-2p33eebsE0Qc",
+          "shortId": "5460139e7757f3d0",
           "fingerprint": "chrome"
         }
       }
