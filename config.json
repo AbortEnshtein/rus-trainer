@@ -4,6 +4,38 @@
   },
   "inbounds": [
     {
+      "tag": "inbound-amedia",
+      "port": 7443,
+      "protocol": "vless",
+      "settings": {
+        "clients": [
+          {
+            "id": "c31b2667-eedd-4811-b7ed-507a25535c1e",
+            "flow": "xtls-rprx-vision"
+          }
+        ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "dest": "amedia-vod.cdnvideo.ru:443",
+          "xver": 0,
+          "serverNames": ["amedia-vod.cdnvideo.ru"],
+          "privateKey": "WPcMRVmIbu-ican55Roub_8okJLUJ0vm1WQ0YOWQpUg",
+          "shortIds": ["fd4505e7da7d4ae1"],
+          "fingerprint": "qq",
+          "spiderX": "/"
+        }
+      },
+      "sniffing": {
+        "enabled": true,
+        "destOverride": ["http", "tls", "quic"]
+      }
+    },
+    {
       "tag": "inbound-grpc",
       "port": 443,
       "protocol": "vless",
@@ -196,6 +228,11 @@
   ],
   "routing": {
     "rules": [
+      {
+        "type": "field",
+        "inboundTag": ["inbound-amedia"],
+        "outboundTag": "relay-to-estonia-amedia"
+      },
       {
         "type": "field",
         "inboundTag": ["inbound-video"],
